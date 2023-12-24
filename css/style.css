@@ -2868,7 +2868,7 @@ textarea.input {
   padding-bottom: 7.5rem;
 }
 
-.partners__container {
+.partners__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3382,7 +3382,7 @@ textarea.input {
     padding-top: 3.75rem;
   }
 
-  .partners__container {
+  .partners__items {
     -webkit-column-gap: 5rem;
        -moz-column-gap: 5rem;
             column-gap: 5rem;
@@ -3755,8 +3755,11 @@ textarea.input {
     overflow: visible;
   }
 
-  .partners__container {
-    overflow: auto;
+  .partners__items {
+    overflow-x: scroll;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 
   .partners__item {
@@ -3841,7 +3844,7 @@ textarea.input {
     grid-template-columns: auto;
   }
 
-  .partners__container {
+  .partners__items {
     -webkit-column-gap: 1.25rem;
        -moz-column-gap: 1.25rem;
             column-gap: 1.25rem;
@@ -4412,7 +4415,7 @@ textarea.input {
 
 @media (min-width: 29.99875em) and (max-width: 80em) {
 @supports ((-moz-column-gap: clamp( 1.25rem , -0.9998500037rem  +  7.4998125047vw , 5rem )) or (column-gap: clamp( 1.25rem , -0.9998500037rem  +  7.4998125047vw , 5rem ))) {
-    .partners__container {
+    .partners__items {
       -webkit-column-gap: clamp( 1.25rem , -0.9998500037rem  +  7.4998125047vw , 5rem );
          -moz-column-gap: clamp( 1.25rem , -0.9998500037rem  +  7.4998125047vw , 5rem );
               column-gap: clamp( 1.25rem , -0.9998500037rem  +  7.4998125047vw , 5rem );
@@ -4420,7 +4423,7 @@ textarea.input {
 }
 
 @supports not ((-moz-column-gap: clamp( 1.25rem , -0.9998500037rem  +  7.4998125047vw , 5rem )) or (column-gap: clamp( 1.25rem , -0.9998500037rem  +  7.4998125047vw , 5rem ))) {
-    .partners__container {
+    .partners__items {
       -webkit-column-gap: calc(1.25rem + 3.75 * (100vw - 29.99875rem) / 50.00125);
          -moz-column-gap: calc(1.25rem + 3.75 * (100vw - 29.99875rem) / 50.00125);
               column-gap: calc(1.25rem + 3.75 * (100vw - 29.99875rem) / 50.00125);
