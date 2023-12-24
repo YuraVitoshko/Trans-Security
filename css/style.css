@@ -378,6 +378,7 @@ textarea.input {
 }
 
 .checkbox__link {
+  line-height: 1.4;
   color: #ff9e52;
   -webkit-transition: color 0.3s ease 0s;
   transition: color 0.3s ease 0s;
