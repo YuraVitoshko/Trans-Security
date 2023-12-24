@@ -4380,8 +4380,8 @@
                     modules: [ Navigation ],
                     observer: true,
                     observeParents: true,
-                    slidesPerView: 1,
-                    spaceBetween: 0,
+                    slidesPerView: 3,
+                    spaceBetween: 40,
                     speed: 800,
                     navigation: {
                         prevEl: ".premium-slider__swiper-button-prev",
