@@ -126,73 +126,6 @@ body {
   padding: 0 1.25rem;
 }
 
-/*
-<a href="#" class="button button--orange">Our services</a>
-<a href="#" class="button">Our services</a>
-*/
-
-.button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0.34375rem 1rem;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.4;
-  color: #0a0a0a;
-  text-align: center;
-  border-radius: 0.75rem;
-  background-color: #FFEEE0;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  border: 0.1875rem solid transparent;
-}
-
-.button--arrow {
-  gap: 0.5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.button--arrow::after {
-  content: "";
-  background: url(../img/icons/arrow-right-long-black.svg) 0 0 no-repeat;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 1.25rem;
-          flex: 0 0 1.25rem;
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.button--orange {
-  background-color: #ff9e52;
-}
-
-.button--orange:active {
-  background-color: #A15921;
-}
-
-.button:active {
-  color: #A15921;
-}
-
-.button:focus {
-  border: 0.1875rem solid #FFC79B;
-}
-
-.button:disabled {
-  background-color: #F5F5F5;
-  color: #C2C2C2;
-}
-
-.button--fw {
-  width: 100%;
-}
-
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -304,86 +237,6 @@ textarea {
 textarea.input {
   resize: none;
   padding: 0;
-}
-
-.checkbox {
-  position: relative;
-}
-
-.checkbox:not(:last-child) {
-  margin-bottom: 0.3125em;
-}
-
-.checkbox__input {
-  position: absolute;
-  width: 0;
-  height: 0;
-  opacity: 0;
-}
-
-.checkbox__input:focus-visible + .checkbox__label:before {
-  background-color: #ff9e52;
-}
-
-.checkbox__input:focus-visible + .checkbox__label:after {
-  display: block;
-}
-
-.checkbox__input:checked + .checkbox__label:before {
-  background-color: #ff9e52;
-}
-
-.checkbox__input:checked + .checkbox__label:after {
-  display: block;
-}
-
-.checkbox__label {
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  position: relative;
-  gap: 0.625rem;
-}
-
-.checkbox__label:before {
-  content: "";
-  margin-top: 0.15625rem;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 1.25rem;
-          flex: 0 0 1.25rem;
-  width: 1.25rem;
-  height: 1.25rem;
-  border: 0.0625rem solid #c2c2c2;
-}
-
-.checkbox__label::after {
-  content: "";
-  position: absolute;
-  top: 0.3125rem;
-  left: -0.125rem;
-  background: url(../img/icons/check.svg) 0 0/100% no-repeat;
-  width: 1rem;
-  height: 0.8125rem;
-  -webkit-transform: translate(30%, 15.5%);
-      -ms-transform: translate(30%, 15.5%);
-          transform: translate(30%, 15.5%);
-  display: none;
-}
-
-.checkbox__text {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  line-height: 1.4;
-}
-
-.checkbox__link {
-  color: #ff9e52;
-  -webkit-transition: color 0.3s ease 0s;
-  transition: color 0.3s ease 0s;
 }
 
 .spollers__wrapper {
@@ -503,6 +356,153 @@ textarea.input {
 [class*=-ibg-contain] img {
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+/*
+<a href="#" class="button button--orange">Our services</a>
+<a href="#" class="button">Our services</a>
+*/
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.34375rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #0a0a0a;
+  text-align: center;
+  border-radius: 0.75rem;
+  background-color: #FFEEE0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border: 0.1875rem solid transparent;
+}
+
+.button--arrow {
+  gap: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button--arrow::after {
+  content: "";
+  background: url(../img/icons/arrow-right-long-black.svg) 0 0 no-repeat;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 1.25rem;
+          flex: 0 0 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.button--orange {
+  background-color: #ff9e52;
+}
+
+.button--orange:active {
+  background-color: #A15921;
+}
+
+.button:active {
+  color: #A15921;
+}
+
+.button:focus {
+  border: 0.1875rem solid #FFC79B;
+}
+
+.button:disabled {
+  background-color: #F5F5F5;
+  color: #C2C2C2;
+}
+
+.button--fw {
+  width: 100%;
+}
+
+.checkbox {
+  position: relative;
+}
+
+.checkbox:not(:last-child) {
+  margin-bottom: 0.3125em;
+}
+
+.checkbox__input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.checkbox__input:focus-visible + .checkbox__label:before {
+  background-color: #ff9e52;
+}
+
+.checkbox__input:focus-visible + .checkbox__label:after {
+  display: block;
+}
+
+.checkbox__input:checked + .checkbox__label:before {
+  background-color: #ff9e52;
+}
+
+.checkbox__input:checked + .checkbox__label:after {
+  display: block;
+}
+
+.checkbox__label {
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  gap: 0.625rem;
+}
+
+.checkbox__label:before {
+  content: "";
+  margin-top: 0.15625rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 1.25rem;
+          flex: 0 0 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 0.0625rem solid #c2c2c2;
+}
+
+.checkbox__label::after {
+  content: "";
+  position: absolute;
+  top: 0.3125rem;
+  left: -0.125rem;
+  background: url(../img/icons/check.svg) 0 0/100% no-repeat;
+  width: 1rem;
+  height: 0.8125rem;
+  -webkit-transform: translate(30%, 15.5%);
+      -ms-transform: translate(30%, 15.5%);
+          transform: translate(30%, 15.5%);
+  display: none;
+}
+
+.checkbox__text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  line-height: 1.4;
+}
+
+.checkbox__link {
+  color: #ff9e52;
+  -webkit-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
 }
 
 .block-header {
@@ -4489,6 +4489,10 @@ textarea.input {
 }
 
 @media (any-hover: hover) {
+  .input:hover {
+    border: 0.125rem solid #FFC79B;
+  }
+
   .button:hover {
     color: #F78B36;
   }
@@ -4496,10 +4500,6 @@ textarea.input {
   .button--orange:hover {
     background-color: #F78B36;
     color: #0a0a0a;
-  }
-
-  .input:hover {
-    border: 0.125rem solid #FFC79B;
   }
 
   .checkbox__link:hover {
