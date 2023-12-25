@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20231225163854">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231225201154">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,36 +22,48 @@
 						<ul class="menu__list">
 							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu1">
-								<a href="#" class="menu__link">VIP services</a>
+								<a href="#" class="menu__link">Our services</a>
 								<ul class="menu__sub-list">
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Police escort</a></li>
 									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Luxury Car Rental</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Airport Transfer</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Executive Class Car Rental</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Nightlife Tour</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Police Escort</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Bodyguard Services Kiev</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Bodyguard Services Odessa</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">VIP Transfer Kyiv-Odessa</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Armed bodyguard</a></li>
 								</ul>
 							</li>
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu2">
 								<a href="#" class="menu__link">Car rent</a>
 								<ul class="menu__sub-list">
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">123</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">123</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">123</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Premium Class</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Business Class</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Vans</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">SUVs</a></li>
 								</ul>
 							</li>
-							<li class="menu__item"><a href="#" class="menu__link">About us</a></li>
 							<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+						</ul>
+						<ul class="menu__contacts contacts-menu">
+							<li class="contacts-menu__item">
+								<img class="contacts-menu__icon" src="img/icons/telegram.svg" alt="icon">
+								<a href="#" class="contacts-menu__link">Telegram</a>
+							</li>
+							<li class="contacts-menu__item">
+								<img class="contacts-menu__icon" src="img/icons/whatsapp.svg" alt="icon">
+								<a href="#" class="contacts-menu__link">WhatsApp</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
 				<div class="header__actions actions-header">
-					<a href="tel:380633772934" class="actions-header__phone">+38063 377 29 34</a>
-					<div data-da=".menu__body, 767.98" class="actions-header__selection-language">
-						<button type="button" class="actions-header__lang actions-header__lang--active">En</button>
-						<button type="button" class="actions-header__lang">Ua</button>
+					<a data-da=".menu__body, 639.98, 1" href="tel:380633772934" class="actions-header__phone">+38063 377 29 34</a>
+					<!-- <div data-da=".menu__body, 767.98" class="actions-header__selection-language">
+				<button type="button" class="actions-header__lang actions-header__lang--active">En</button>
+				<button type="button" class="actions-header__lang">Ua</button>
+			</div> -->
+					<div data-da=".menu__list, 639.98" class="actions-header__wrapper">
+						<select class="actions-header__lang" name="form[]" data-class-modif="form">
+							<option value="1" selected>En</option>
+							<option value="2">Ua</option>
+							<option value="3">Ru</option>
+						</select>
 					</div>
 				</div>
 				<button type="button" class="menu__icon icon-menu"><span></span></button>
@@ -975,9 +987,9 @@
 							<button type="submit" class="form-we-ready__button button button--orange button--arrow">Book a call</button>
 						</form>
 						<div class="we-ready__contacts contacts-we-ready">
-							<div class="contacts-we-ready__block-header block-header">
-								<div class=" block-header__subtitle block-header__subtitle--size block-header__subtitle--left">Contact</div>
-								<h2 class="block-header__title block-header__title--size block-header__title--left">Get in touch with us</h2>
+							<div class="contacts-we-ready__top top-contacts-we-ready">
+								<h2 class="top-contacts-we-ready__title">Contact information</h2>
+								<div class="top-contacts-we-ready__paragraph">Contact us 24/7 and we will assess your needs to find the best solutions for you</div>
 							</div>
 							<ul class="contacts-we-ready__list">
 								<li class="contacts-we-ready__item">
@@ -993,6 +1005,7 @@
 									<a class="contacts-we-ready__link" href="mailto:transecurity@gmail.com">transecurity@gmail.com</a>
 								</li>
 							</ul>
+							<div class="contacts-we-ready__text">We respond to our clients’ requests within 24 hours</div>
 						</div>
 					</div>
 				</div>
@@ -1261,7 +1274,7 @@
 	</div>
 </footer> -->
 	</div>
-	<script src="js/app.min.js?_v=20231225163854"></script>
+	<script src="js/app.min.js?_v=20231225201154"></script>
 </body>
 
 </html>
