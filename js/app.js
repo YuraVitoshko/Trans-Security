@@ -4392,15 +4392,15 @@
                             slidesPerView: 1.1,
                             spaceBetween: 20
                         },
+                        665: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
                         768: {
                             slidesPerView: 2,
                             spaceBetween: 30
                         },
                         992: {
-                            slidesPerView: 3,
-                            spaceBetween: 30
-                        },
-                        1268: {
                             slidesPerView: 3,
                             spaceBetween: 40
                         }
@@ -4423,15 +4423,15 @@
                             slidesPerView: 1.1,
                             spaceBetween: 20
                         },
+                        665: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
                         768: {
                             slidesPerView: 2,
                             spaceBetween: 30
                         },
                         992: {
-                            slidesPerView: 3,
-                            spaceBetween: 30
-                        },
-                        1268: {
                             slidesPerView: 3,
                             spaceBetween: 40
                         }
@@ -4454,15 +4454,15 @@
                             slidesPerView: 1.1,
                             spaceBetween: 20
                         },
+                        665: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
                         768: {
                             slidesPerView: 2,
                             spaceBetween: 30
                         },
                         992: {
-                            slidesPerView: 3,
-                            spaceBetween: 30
-                        },
-                        1268: {
                             slidesPerView: 3,
                             spaceBetween: 40
                         }
@@ -4485,15 +4485,15 @@
                             slidesPerView: 1.1,
                             spaceBetween: 20
                         },
+                        665: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
                         768: {
                             slidesPerView: 2,
                             spaceBetween: 30
                         },
                         992: {
-                            slidesPerView: 3,
-                            spaceBetween: 30
-                        },
-                        1268: {
                             slidesPerView: 3,
                             spaceBetween: 40
                         }

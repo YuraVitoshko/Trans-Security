@@ -555,6 +555,9 @@ textarea.input {
 }
 
 .card-auto {
+  display: -ms-grid;
+  display: grid;
+  gap: 1.25rem;
   border-radius: 0.75rem;
   background-color: #FCFCFC;
   -webkit-box-shadow: 0.125rem 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.08);
@@ -570,7 +573,9 @@ textarea.input {
   display: -ms-grid;
   display: grid;
   gap: 1.25rem;
-  padding: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .card-auto__prices:not(:last-child) {
@@ -3257,6 +3262,7 @@ textarea.input {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  padding-bottom: 10px;
 }
 
 .swiper-vertical .swiper-wrapper {
