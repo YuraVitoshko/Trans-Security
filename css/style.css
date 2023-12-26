@@ -2777,7 +2777,7 @@ textarea.input {
 }
 
 .actions-hero__button--width-big {
-  width: 10rem;
+  max-width: 10rem;
   text-wrap: nowrap;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -2790,7 +2790,7 @@ textarea.input {
 }
 
 .actions-hero__button--width-small {
-  width: 7.5rem;
+  max-width: 7.5rem;
   text-wrap: nowrap;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -4874,7 +4874,7 @@ textarea.input {
   }
 
   .actions-hero__button--width-big:hover {
-    width: 11.25rem;
+    max-width: 11.25rem;
   }
 
   .actions-hero__button--width-big:hover::after {
@@ -4883,7 +4883,7 @@ textarea.input {
   }
 
   .actions-hero__button--width-small:hover {
-    width: 8.75rem;
+    max-width: 8.75rem;
   }
 
   .actions-hero__button--width-small:hover::after {
