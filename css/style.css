@@ -4003,6 +4003,18 @@ textarea.input {
     overflow: hidden;
   }
 
+  .actions-hero__button::after {
+    display: none;
+  }
+
+  .actions-hero__button--width-big {
+    max-width: 100%;
+  }
+
+  .actions-hero__button--width-small {
+    max-width: 100%;
+  }
+
   .statistics {
     margin-top: 3.75rem;
   }
