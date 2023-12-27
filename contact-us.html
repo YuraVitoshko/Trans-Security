@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231227093057">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item menu__item--sub-menu" data-submenu="submenu1">
+								<a href="#" class="menu__link">Our services</a>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Police escort</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Luxury Car Rental</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Armed bodyguard</a></li>
+								</ul>
+							</li>
+							<li class="menu__item menu__item--sub-menu" data-submenu="submenu2">
+								<a href="#" class="menu__link">Car rent</a>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Premium Class</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Business Class</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Vans</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">SUVs</a></li>
+								</ul>
+							</li>
+							<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+						</ul>
+						<ul class="menu__contacts contacts-menu">
+							<li class="contacts-menu__item">
+								<img class="contacts-menu__icon" src="img/icons/telegram.svg" alt="icon">
+								<a href="#" class="contacts-menu__link">Telegram</a>
+							</li>
+							<li class="contacts-menu__item">
+								<img class="contacts-menu__icon" src="img/icons/whatsapp.svg" alt="icon">
+								<a href="#" class="contacts-menu__link">WhatsApp</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-da=".menu__body, 639.98, 1" href="tel:380633772934" class="actions-header__phone">+38063 377 29 34</a>
+					<!-- <div data-da=".menu__body, 767.98" class="actions-header__selection-language">
+				<button type="button" class="actions-header__lang actions-header__lang--active">En</button>
+				<button type="button" class="actions-header__lang">Ua</button>
+			</div> -->
+					<div data-da=".menu__list, 639.98" class="actions-header__wrapper">
+						<select class="actions-header__lang" name="form[]" data-class-modif="form">
+							<option value="1" selected>En</option>
+							<option value="2">Ua</option>
+							<option value="3">Ru</option>
+						</select>
+					</div>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="contacy-us-hero">
+				<picture><source srcset="img/contacts/hero-image.webp" type="image/webp"><img class="contacy-us-hero__bg" src="img/contacts/hero-image.jpg" alt="Image"></picture>
+				<picture><source srcset="img/contacts/hero-small-image.webp" type="image/webp"><img class="contacy-us-hero__bg--small" src="img/contacts/hero-small-image.jpg" alt="Image"></picture>
+				<div class="contacy-us-hero__container">
+					<h1 class="contacy-us-hero__title">Contact us</h1>
+				</div>
+			</section>
+			<section class="we-ready">
+				<div class="we-ready__container">
+					<div class="we-ready__block-header block-header">
+						<div class=" block-header__subtitle">We ready 24 hours for you</div>
+						<h2 class="block-header__title">Our protection is always there 24 hours</h2>
+					</div>
+					<div class="we-ready__body">
+						<form class="we-ready__form form-we-ready" action="#">
+							<div class="form-we-ready__line">
+								<label class="form-we-ready__label" for="name">Full name</label>
+								<input autocomplete="off" id="name" required type="text" name="form[]" data-error="error" placeholder="Enter a full name" class="form-we-ready__input input">
+							</div>
+							<div class="form-we-ready__line">
+								<label class="form-we-ready__label" for="phone">Phone number *</label>
+								<input class="form-we-ready__input input" id="phone" required type="tel" name="tel" placeholder="+380 63 123 98 65">
+							</div>
+							<div class="form-we-ready__line">
+								<label class="form-we-ready__label" for="textarea">Label</label>
+								<textarea placeholder="I want to rent Luxury car|" id="textarea" class="form-we-ready__textarea"></textarea>
+							</div>
+							<div class="form-we-ready__checkbox checkbox">
+								<input id="c_1" data-error="error" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_1" class="checkbox__label"><span class="checkbox__text">I agree all statements in <a class="checkbox__link" href="#">Terms of services</a></span></label>
+							</div>
+							<button type="submit" class="form-we-ready__button button button--orange button--arrow">Book a call</button>
+						</form>
+						<div class="we-ready__contacts contacts-we-ready">
+							<div class="contacts-we-ready__top top-contacts-we-ready">
+								<h2 class="top-contacts-we-ready__title">Contact information</h2>
+								<div class="top-contacts-we-ready__paragraph">Contact us 24/7 and we will assess your needs to find the best solutions for you</div>
+							</div>
+							<ul class="contacts-we-ready__list">
+								<li class="contacts-we-ready__item">
+									<div class="contacts-we-ready__subtitle">Address:</div>
+									<a class="contacts-we-ready__link" href="#">Kyiv, Saksahanskoho Street, 20</a>
+								</li>
+								<li class="contacts-we-ready__item">
+									<div class="contacts-we-ready__subtitle">Phone:</div>
+									<a class="contacts-we-ready__link" href="tel:380633772934">+38063 377 29 34</a>
+								</li>
+								<li class="contacts-we-ready__item">
+									<div class="contacts-we-ready__subtitle">Email:</div>
+									<a class="contacts-we-ready__link" href="mailto:transecurity@gmail.com">transecurity@gmail.com</a>
+								</li>
+							</ul>
+							<div class="contacts-we-ready__text">We respond to our clients’ requests within 24 hours</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="what-we-do">
+				<div class="what-we-do__container">
+					<div class="what-we-do__block-header block-header">
+						<div class=" block-header__subtitle">What we do</div>
+						<h2 class="block-header__title block-header__title--white">Services we prowide</h2>
+					</div>
+					<div class="what-we-do__body">
+						<div class="what-we-do__item item-what-we-do">
+							<div class="item-what-we-do__image">
+								<picture><source srcset="img/what-we-do/01.webp" type="image/webp"><img src="img/what-we-do/01.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-what-we-do__content">
+								<h4 class="item-what-we-do__title">police escort</h4>
+								<div class="item-what-we-do__text">Police escorts are typically requested for a variety of reasons,
+									including ensuring the safety and security of
+									high-profile events, VIPs, or sensitive cargo.
+								</div>
+								<a href="#" class="item-what-we-do__details">Rental details</a>
+							</div>
+						</div>
+						<div class="what-we-do__item item-what-we-do">
+							<div class="item-what-we-do__image">
+								<picture><source srcset="img/what-we-do/01.webp" type="image/webp"><img src="img/what-we-do/01.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-what-we-do__content">
+								<h4 class="item-what-we-do__title">Luxury Car Rental</h4>
+								<div class="item-what-we-do__text">TranSecurity brings the best close protection bodyguard for you. if
+									you are such a
+									traveler who offers more importance
+									to personal security while traveling, then hiring the best bodyguard security services Kiev can make a
+									big difference
+									for the tour that you are planning next at the Ukrainian capital.</div>
+								<a href="#" class="item-what-we-do__details">Rental details</a>
+							</div>
+						</div>
+						<div class="what-we-do__item item-what-we-do">
+							<div class="item-what-we-do__image">
+								<picture><source srcset="img/what-we-do/03.webp" type="image/webp"><img src="img/what-we-do/03.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-what-we-do__content">
+								<h4 class="item-what-we-do__title">Armed bodyguard</h4>
+								<div class="item-what-we-do__text">The primary role of an armed bodyguard is to ensure the safety of
+									their client. This
+									involves assessing potential risks
+									and taking proactive measures to prevent security.</div>
+								<a href="#" class="item-what-we-do__details">Rental details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__item item-footer">
+							<h4 class="item-footer__title">Company</h4>
+							<ul class="item-footer__menu-list">
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Home</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item item-footer">
+							<h4 class="item-footer__title">Car rental</h4>
+							<ul class="item-footer__menu-list">
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Premium Class</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">SUVs</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Business Class</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Vans</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item item-footer">
+							<h4 class="item-footer__title">Our SERVICES</h4>
+							<ul class="item-footer__menu-list">
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Luxury Car Rental</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Police escort</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Armed bodyguard</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item item-footer">
+							<h4 class="item-footer__title">Contact Us</h4>
+							<ul class="item-footer__menu-list">
+								<li class="item-footer__menu-item">
+									<a href="tel:380633772934" class="item-footer__menu-link">+38063 377 29 34</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="mailto:transecurity@gmail.com" class="item-footer__menu-link">transecurity@gmail.com</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Telegram</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">WhatsApp</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<div class="footer__wrapper">
+						<ul class="footer__payment-methods payment-methods">
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/visa.svg" alt="Visa">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/mastercard.svg" alt="Mastercard">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/visa-2.svg" alt="Verified by Visa">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/paypal.svg" alt="PayPal">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/union-pay.svg" alt="Union-Pay">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/tether.svg" alt="Tether">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/bitcoin.svg" alt="Bitcoin">
+							</li>
+						</ul>
+						<div class="footer__text">© 2023 TranSecurity. All rights reserved.</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- <footer class="footer">
+	<div class="footer__container">
+		<div class="footer__body">
+			<div class="footer__top">
+				<div data-spollers="767.98" data-one-spoller class="footer__spollers spollers">
+					<div class="spollers__wrapper">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Company</button>
+							<ul class="spollers__menu-list">
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link spollers__menu-link--color">Home</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link spollers__menu-link--color">Testimonials</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link spollers__menu-link--color">About Us</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link spollers__menu-link--color">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Car rent with driver</button>
+							<ul class="spollers__menu-list">
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Premium Class</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Business Class</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">SUVs</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Executive Vans</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Limousines</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Exotic Cars</a>
+								</li>
+							</ul>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">VIP SERVICES</button>
+							<ul class="spollers__menu-list">
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Luxury Car Rental</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Airport Transfer</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Executive Class Car Rental</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Nightlife Tour</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Police Escort</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Bodyguard Services Kiev</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">Bodyguard Services Odessa</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" class="spollers__menu-link">VIP Transfer Kyiv-Odessa</a>
+								</li>
+							</ul>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Inquiries & Support</button>
+							<ul class="spollers__menu-list">
+								<li class="spollers__menu-item">
+									<a href="tel:380633772934" class="spollers__menu-link">+38063 377 29 34</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" target="_blank" class="spollers__menu-link">Telegram</a>
+								</li>
+								<li class="spollers__menu-item">
+									<a href="#" target="_blank" class="spollers__menu-link">WhatsApp</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__loc-map">
+					<h4 class="footer__title">Address</h4>
+					<a href="https://maps.app.goo.gl/twi2Sm8xScVVvRNK6" class="footer__location">Kyiv, Saksahanskoho Street,
+						20</a>
+					<div class="footer__map">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20329.81172124352!2d30.496998269162543!3d50.436882273536334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cefc59e7fb07%3A0x48253e3fa8c2ab1a!2z0LLRg9C70LjRhtGPINCh0LDQutGB0LDQs9Cw0L3RgdGM0LrQvtCz0L4sIDIwLCDQmtC40ZfQsiwgMDIwMDA!5e0!3m2!1suk!2sua!4v1702991149517!5m2!1suk!2sua"
+							style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<ul class="footer__payment-methods payment-methods">
+					<li class="payment-methods__item">
+						<img src="img/payment-methods/visa.svg" alt="Visa">
+					</li>
+					<li class="payment-methods__item">
+						<img src="img/payment-methods/mastercard.svg" alt="Mastercard">
+					</li>
+					<li class="payment-methods__item">
+						<img src="img/payment-methods/visa-2.svg" alt="Verified by Visa">
+					</li>
+					<li class="payment-methods__item">
+						<img src="img/payment-methods/paypal.svg" alt="PayPal">
+					</li>
+					<li class="payment-methods__item">
+						<img src="img/payment-methods/union-pay.svg" alt="Union-Pay">
+					</li>
+					<li class="payment-methods__item">
+						<img src="img/payment-methods/tether.svg" alt="Tether">
+					</li>
+					<li class="payment-methods__item">
+						<img src="img/payment-methods/bitcoin.svg" alt="Bitcoin">
+					</li>
+				</ul>
+				<div class="footer__text">© 2023 TranSecurity. All rights reserved.</div>
+			</div>
+		</div>
+	</div>
+</footer> -->
+	</div>
+	<script src="js/app.min.js?_v=20231227093057"></script>
+</body>
+
+</html>

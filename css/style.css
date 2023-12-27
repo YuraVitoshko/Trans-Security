@@ -570,8 +570,16 @@ textarea.input {
   overflow: hidden;
 }
 
+.card-auto__image {
+  overflow: hidden;
+}
+
 .card-auto__image img {
   width: 100%;
+  -webkit-transition: -webkit-transform 0.5s ease 0s;
+  transition: -webkit-transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
 }
 
 .card-auto__body {
@@ -594,6 +602,8 @@ textarea.input {
   text-transform: uppercase;
   color: #0a0a0a;
   text-align: center;
+  -webkit-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
 }
 
 .card-auto__description-items {
@@ -2416,12 +2426,13 @@ textarea.input {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-transition: background-color 0.3s ease 0s;
-  transition: background-color 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .header._header-scroll {
-  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 0 0 0.75rem 0.75rem;
+  background-color: rgba(14, 14, 14, 0.95);
 }
 
 .header__container {
@@ -3259,9 +3270,21 @@ textarea.input {
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
   border-radius: 0.75rem;
-  background: #F5F5F5;
+  background-color: #fcfcfc;
   -webkit-box-shadow: 0 0.375rem 0.75rem 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.375rem 0.75rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.we-ready__form {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.we-ready__contacts {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .form-we-ready {
@@ -3545,6 +3568,53 @@ textarea.input {
   line-height: 1.4;
 }
 
+.contacy-us-hero {
+  position: relative;
+  border-radius: 0 0 0.75rem 0.75rem;
+  overflow: hidden;
+}
+
+.contacy-us-hero__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.contacy-us-hero__bg--small {
+  display: none;
+}
+
+.contacy-us-hero__container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contacy-us-hero__title {
+  color: #FCFCFC;
+  text-align: center;
+  font-family: Teko;
+  font-weight: 500;
+  line-height: 1.1;
+  text-transform: uppercase;
+  padding: 1.5625rem 2.5rem 0.9375rem 2.5rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(130deg, #000 0%, rgba(14, 14, 14, 0.9) 115.45%);
+}
+
 .swiper {
   overflow: visible;
   position: relative;
@@ -3768,6 +3838,18 @@ textarea.input {
   .general-faqs__body {
     padding-right: 2.5rem;
   }
+
+  .contacy-us-hero__container {
+    padding-top: 15rem;
+  }
+
+  .contacy-us-hero__container {
+    padding-bottom: 15rem;
+  }
+
+  .contacy-us-hero__title {
+    font-size: 4rem;
+  }
 }
 
 @media (max-width: 80em) {
@@ -3775,6 +3857,25 @@ textarea.input {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 9.375rem;
             flex: 0 0 9.375rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .contacy-us-hero__bg {
+    display: none;
+  }
+
+  .contacy-us-hero__bg--small {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
   }
 }
 
@@ -4098,9 +4199,22 @@ textarea.input {
   .we-ready__body {
     -ms-grid-columns: auto;
     grid-template-columns: auto;
+    gap: 2.5rem;
   }
 
-  .contacts-we-ready {
+  .we-ready__form {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+
+  .we-ready__contacts {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+
+  .contacts-we-ready--none {
     display: none;
   }
 
@@ -4352,6 +4466,18 @@ textarea.input {
 
   .general-faqs__body {
     padding-bottom: 0.0000000625rem;
+  }
+
+  .contacy-us-hero__container {
+    padding-top: 10rem;
+  }
+
+  .contacy-us-hero__container {
+    padding-bottom: 5.625rem;
+  }
+
+  .contacy-us-hero__title {
+    font-size: 3.375rem;
   }
 }
 
@@ -4703,6 +4829,42 @@ textarea.input {
       padding-bottom: calc(0.0000000625rem + 4.9999999375 * (100vw - 22.5rem) / 57.5);
     }
 }
+
+@supports (padding-top: clamp( 10rem , 8.0434782609rem  +  8.6956521739vw , 15rem )) {
+    .contacy-us-hero__container {
+      padding-top: clamp( 10rem , 8.0434782609rem  +  8.6956521739vw , 15rem );
+    }
+}
+
+@supports not (padding-top: clamp( 10rem , 8.0434782609rem  +  8.6956521739vw , 15rem )) {
+    .contacy-us-hero__container {
+      padding-top: calc(10rem + 5 * (100vw - 22.5rem) / 57.5);
+    }
+}
+
+@supports (padding-bottom: clamp( 5.625rem , 1.9565217391rem  +  16.3043478261vw , 15rem )) {
+    .contacy-us-hero__container {
+      padding-bottom: clamp( 5.625rem , 1.9565217391rem  +  16.3043478261vw , 15rem );
+    }
+}
+
+@supports not (padding-bottom: clamp( 5.625rem , 1.9565217391rem  +  16.3043478261vw , 15rem )) {
+    .contacy-us-hero__container {
+      padding-bottom: calc(5.625rem + 9.375 * (100vw - 22.5rem) / 57.5);
+    }
+}
+
+@supports (font-size: clamp( 3.375rem , 3.1304347826rem  +  1.0869565217vw , 4rem )) {
+    .contacy-us-hero__title {
+      font-size: clamp( 3.375rem , 3.1304347826rem  +  1.0869565217vw , 4rem );
+    }
+}
+
+@supports not (font-size: clamp( 3.375rem , 3.1304347826rem  +  1.0869565217vw , 4rem )) {
+    .contacy-us-hero__title {
+      font-size: calc(3.375rem + 0.625 * (100vw - 22.5rem) / 57.5);
+    }
+}
 }
 
 @media (min-width: 61.99875em) and (max-width: 80em) {
@@ -4847,6 +5009,16 @@ textarea.input {
 
   .checkbox__link:hover {
     color: #F78B36;
+  }
+
+  .card-auto__image:hover img {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+
+  .card-auto__model:hover {
+    color: #ff9e52;
   }
 
   .select__content:hover {
