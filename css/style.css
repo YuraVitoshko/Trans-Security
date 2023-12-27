@@ -154,11 +154,15 @@ textarea {
 }
 
 .input._form-focus {
-  border: 0.1875rem solid #FFC79B;
+  border: 0.125rem solid #FFC79B;
 }
 
 ._form-error {
   position: relative;
+  padding-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #B00303;
 }
 
 ._form-error::after {
@@ -166,9 +170,9 @@ textarea {
   position: absolute;
   top: 50%;
   right: 0.5rem;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(-40%);
+      -ms-transform: translateY(-40%);
+          transform: translateY(-40%);
   background: url(../../../img/icons/warning.svg) 0 0 no-repeat;
   width: 1rem;
   height: 1rem;
