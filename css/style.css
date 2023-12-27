@@ -839,6 +839,123 @@ textarea.input {
   cursor: pointer;
 }
 
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.input {
+  width: 100%;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  padding-left: 0.75rem;
+  padding-right: 2rem;
+  border: 0.125rem solid #E0E0E0;
+  border-radius: 0.75rem;
+  background-color: #FCFCFC;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  outline: none;
+}
+
+.input:focus {
+  border: 0.125rem solid #F78B36;
+}
+
+.input._form-focus {
+  border: 0.125rem solid #FFC79B;
+}
+
+._form-error {
+  position: relative;
+  padding-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #B00303;
+}
+
+._form-error::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  -webkit-transform: translateY(-40%);
+      -ms-transform: translateY(-40%);
+          transform: translateY(-40%);
+  background: url(../img/icons/warning.svg) 0 0 no-repeat;
+  width: 1rem;
+  height: 1rem;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden])::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  color: #757575;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden])::-moz-placeholder {
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  color: #757575;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden]):-ms-input-placeholder {
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  color: #757575;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden])::-ms-input-placeholder {
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  color: #757575;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden])::placeholder {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  color: #757575;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden]):focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden]):focus::-moz-placeholder {
+  opacity: 0;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden]):focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden]):focus::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.input[placeholder]:not([data-placeholder-nohiden]):focus::placeholder {
+  opacity: 0;
+}
+
+textarea.input {
+  resize: none;
+  padding: 0;
+}
+
 .iti {
   position: relative;
   display: inline-block;
@@ -5031,6 +5148,10 @@ textarea.input {
 
   .select__option:hover {
     color: #ff9e52;
+  }
+
+  .input:hover {
+    border: 0.125rem solid #FFC79B;
   }
 
   .menu__link:hover {
