@@ -2909,7 +2909,7 @@ textarea.input {
 }
 
 .actions-hero__button--width-big {
-  max-width: 10rem;
+  width: 10rem;
   text-wrap: nowrap;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -2922,7 +2922,7 @@ textarea.input {
 }
 
 .actions-hero__button--width-small {
-  max-width: 7.5rem;
+  width: 7.5rem;
   text-wrap: nowrap;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -4229,14 +4229,6 @@ textarea.input {
     display: none;
   }
 
-  .actions-hero__button--width-big {
-    max-width: 100%;
-  }
-
-  .actions-hero__button--width-small {
-    max-width: 100%;
-  }
-
   .statistics {
     margin-top: 3.75rem;
   }
@@ -5171,7 +5163,7 @@ textarea.input {
   }
 
   .actions-hero__button--width-big:hover {
-    max-width: 11.25rem;
+    width: 11.25rem;
   }
 
   .actions-hero__button--width-big:hover::after {
@@ -5180,7 +5172,7 @@ textarea.input {
   }
 
   .actions-hero__button--width-small:hover {
-    max-width: 8.75rem;
+    width: 8.75rem;
   }
 
   .actions-hero__button--width-small:hover::after {
