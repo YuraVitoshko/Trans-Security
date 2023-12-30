@@ -5900,6 +5900,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     font-size: 0.875rem;
   }
 
+  .bodyguard-hero__bg {
+    -o-object-position: 80%;
+       object-position: 80%;
+  }
+
   .executive-protection__image {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 20rem;
