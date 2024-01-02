@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20231230152631">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240102212907">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -308,62 +308,61 @@
 								renowned Mercedes-Benz family, the Maybach S550 takes luxury to the next level.
 							</div>
 							<div class="car-description__subtitle">Design and Exterior:</div>
-							<div class="car-description__text">
-								<p>The Maybach S550 is a true masterpiece of automotive design. It boasts a sleek and sophisticated exterior with clean
-									lines, a bold front grille adorned with the iconic Maybach emblem, and distinctive multi-spoke alloy wheels. The
-									elongated body of the sedan conveys an air of opulence and prestige.</p>
-								<p>Under the hood, the Maybach S550 is powered by a robust V8 engine, delivering ample horsepower and torque for effortless
-									acceleration and highway cruising. The vehicle's air suspension provides a smooth and comfortable ride, ensuring that
-									every journey is a pleasure. It offers a balance between power and efficiency, making it an ideal choice for both city
-									driving and long-distance trips.</p>
+							<div data-showmore class="car-description__showmore">
+								<div data-showmore-content="100.8" class="car-description__text">
+									<p>The Maybach S550 is a true masterpiece of automotive design. It boasts a sleek and sophisticated exterior with clean
+										lines, a bold front grille adorned with the iconic Maybach emblem, and distinctive multi-spoke alloy wheels. The
+										elongated body of the sedan conveys an air of opulence and prestige.</p>
+									<p>Under the hood, the Maybach S550 is powered by a robust V8 engine, delivering ample horsepower and torque for effortless
+										acceleration and highway cruising. The vehicle's air suspension provides a smooth and comfortable ride, ensuring that
+										every journey is a pleasure. It offers a balance between power and efficiency, making it an ideal choice for both city
+										driving and long-distance trips.</p>
+								</div>
+								<button hidden data-showmore-button class="car-description__see-more"><span>See more</span><span>See less</span></button>
 							</div>
-							<button class="car-description__see-more">See more</button>
 						</div>
 					</div>
-					<form class="description__form form-we-ready" action="#">
-						<div class="form-we-ready__prices prices-card-auto">
-							<div class="prices-card-auto__item prices-card-auto__item--border">
-								<div class="prices-card-auto__label">Day</div>
-								<div class="prices-card-auto__price">$280</div>
-							</div>
-							<div class="prices-card-auto__item prices-card-auto__item--border">
-								<div class="prices-card-auto__label">Week</div>
-								<div class="prices-card-auto__price">$850</div>
-							</div>
-							<div class="prices-card-auto__item">
-								<div class="prices-card-auto__label">Month</div>
-								<div class="prices-card-auto__price">$2920</div>
-							</div>
-						</div>
-						<div class="form-we-ready__line">
-							<label class="form-we-ready__label" for="name">Full name</label>
-							<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
-						</div>
-						<div class="form-we-ready__line">
-							<label class="form-we-ready__label" for="phone">Phone number *</label>
-							<input class="form-we-ready__input input" id="phone" required type="tel" name="tel" placeholder="+380 63 123 98 65">
-						</div>
-						<div class="form-we-ready__line">
-							<label class="form-we-ready__label" for="textarea">Label</label>
-							<textarea placeholder="I want to rent Luxury car|" id="textarea" class="form-we-ready__textarea"></textarea>
-						</div>
-						<div class="form-we-ready__checkbox checkbox">
-							<input id="c_1" data-error="error" class="checkbox__input" type="checkbox" value="1" name="form[]">
-							<label for="c_1" class="checkbox__label"><span class="checkbox__text">I agree all statements in <a class="checkbox__link" href="#">Terms of services</a></span></label>
-						</div>
-						<div class="form-we-ready__actions actions-form">
-							<button type="submit" class="actions-form__button button button--orange button--arrow">Book a call</button>
-							<div class="actions-form__text">Or contact directly:</div>
-							<div class="actions-form__social">
-								<a href="#" class="actions-form__link">
-									<img src="img/icons/telegram.svg" alt="Icon">
-								</a>
-								<a href="#" class="actions-form__link">
-									<img src="img/icons/whatsapp.svg" alt="Icon">
-								</a>
+					<div id="popup" aria-hidden="true" class="popup">
+						<div class="popup__wrapper">
+							<div class="popup__content">
+								<button data-close type="button" class="popup__close"><img id="img-popup" src="img/icons/close.svg" alt=""></button>
+								<form class="we-ready__form form-we-ready" action="#">
+									<div class="form-we-ready__top">
+										<div class="form-we-ready__price">$320</div>
+										<div class="form-we-ready__terms">/ day</div>
+									</div>
+									<div class="form-we-ready__line">
+										<label class="form-we-ready__label" for="name">Full name</label>
+										<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
+									</div>
+									<div class="form-we-ready__line">
+										<label class="form-we-ready__label" for="phone">Phone number *</label>
+										<input class="form-we-ready__input input" id="phone" required type="tel" name="tel" placeholder="+380 63 123 98 65">
+									</div>
+									<div class="form-we-ready__line">
+										<label class="form-we-ready__label" for="textarea">Label</label>
+										<textarea placeholder="I want to rent Luxury car|" id="textarea" class="form-we-ready__textarea"></textarea>
+									</div>
+									<div class="form-we-ready__checkbox checkbox">
+										<input id="checkbox" data-error="error" class="checkbox__input" type="checkbox" value="1" name="form[]">
+										<label for="checkbox" class="checkbox__label"><span class="checkbox__text">I agree all statements in <a class="checkbox__link" href="#">Terms of services</a></span></label>
+									</div>
+									<div class="form-we-ready__actions actions-form">
+										<button type="submit" class="actions-form__button button button--orange button--arrow">Book a call</button>
+										<div class="actions-form__text">Or contact directly:</div>
+										<div class="actions-form__social">
+											<a href="#" class="actions-form__link">
+												<img src="img/icons/telegram.svg" alt="Icon">
+											</a>
+											<a href="#" class="actions-form__link">
+												<img src="img/icons/whatsapp.svg" alt="Icon">
+											</a>
+										</div>
+									</div>
+								</form>
 							</div>
 						</div>
-					</form>
+					</div>
 				</div>
 			</section>
 			<section class="how-its-work">
@@ -401,11 +400,11 @@
 						<h2 class="block-header__title">Similar cars</h2>
 					</div>
 					<div class="our-fleet__category category-our-fleet">
-						<!-- Оболонка слайдера -->
+
 						<div class="category-our-fleet__slider premium-slider swiper">
-							<!-- Частина слайдера, що рухається -->
+
 							<div class="premium-slider__wrapper swiper-wrapper">
-								<!-- Слайд -->
+
 								<div class="business-slider__slide swiper-slide">
 									<div class="card-auto">
 										<a href="#" class="card-auto__image">
@@ -462,7 +461,7 @@
 										</div>
 									</div>
 								</div>
-								<!-- Слайд -->
+
 								<div class="business-slider__slide swiper-slide">
 									<div class="card-auto">
 										<a href="#" class="card-auto__image">
@@ -519,7 +518,7 @@
 										</div>
 									</div>
 								</div>
-								<!-- Слайд -->
+
 								<div class="premium-slider__slide swiper-slide">
 									<div class="card-auto">
 										<a href="#" class="card-auto__image">
@@ -577,7 +576,6 @@
 									</div>
 								</div>
 							</div>
-							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
 							<div data-watch class="swiper__buttons premium-slider__buttons">
 								<button type="button" class="premium-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
 								<button type="button" class="premium-slider__swiper-button-next swiper-button-next slider-btn"></button>
@@ -729,47 +727,7 @@
 				</div>
 			</div>
 		</footer>
-		<div id="popup" aria-hidden="true" class="popup">
-			<div class="popup__wrapper">
-				<div class="popup__content">
-					<button data-close type="button" class="popup__close"><img src="img/icons/close.svg" alt=""></button>
-					<form class="we-ready__form form-we-ready" action="#">
-						<div class="form-we-ready__top">
-							<div class="form-we-ready__price">$320</div>
-							<div class="form-we-ready__terms">/ day</div>
-						</div>
-						<div class="form-we-ready__line">
-							<label class="form-we-ready__label" for="name">Full name</label>
-							<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
-						</div>
-						<div class="form-we-ready__line">
-							<label class="form-we-ready__label" for="phone">Phone number *</label>
-							<input class="form-we-ready__input input" id="phone" required type="tel" name="tel" placeholder="+380 63 123 98 65">
-						</div>
-						<div class="form-we-ready__line">
-							<label class="form-we-ready__label" for="textarea">Label</label>
-							<textarea placeholder="I want to rent Luxury car|" id="textarea" class="form-we-ready__textarea"></textarea>
-						</div>
-						<div class="form-we-ready__checkbox checkbox">
-							<input id="checkbox" data-error="error" class="checkbox__input" type="checkbox" value="1" name="form[]">
-							<label for="checkbox" class="checkbox__label"><span class="checkbox__text">I agree all statements in <a class="checkbox__link" href="#">Terms of services</a></span></label>
-						</div>
-						<div class="form-we-ready__actions actions-form">
-							<button type="submit" class="actions-form__button button button--orange button--arrow">Book a call</button>
-							<div class="actions-form__text">Or contact directly:</div>
-							<div class="actions-form__social">
-								<a href="#" class="actions-form__link">
-									<img src="img/icons/telegram.svg" alt="Icon">
-								</a>
-								<a href="#" class="actions-form__link">
-									<img src="img/icons/whatsapp.svg" alt="Icon">
-								</a>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
+
 		<!-- <footer class="footer">
 	<div class="footer__top">
 		<div class="footer__container">
@@ -867,141 +825,9 @@
 		</div>
 	</div>
 </footer>
-
-<!-- <footer class="footer">
-	<div class="footer__container">
-		<div class="footer__body">
-			<div class="footer__top">
-				<div data-spollers="767.98" data-one-spoller class="footer__spollers spollers">
-					<div class="spollers__wrapper">
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">Company</button>
-							<ul class="spollers__menu-list">
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link spollers__menu-link--color">Home</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link spollers__menu-link--color">Testimonials</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link spollers__menu-link--color">About Us</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link spollers__menu-link--color">Contact Us</a>
-								</li>
-							</ul>
-						</div>
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">Car rent with driver</button>
-							<ul class="spollers__menu-list">
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Premium Class</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Business Class</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">SUVs</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Executive Vans</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Limousines</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Exotic Cars</a>
-								</li>
-							</ul>
-						</div>
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">VIP SERVICES</button>
-							<ul class="spollers__menu-list">
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Luxury Car Rental</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Airport Transfer</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Executive Class Car Rental</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Nightlife Tour</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Police Escort</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Bodyguard Services Kiev</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">Bodyguard Services Odessa</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" class="spollers__menu-link">VIP Transfer Kyiv-Odessa</a>
-								</li>
-							</ul>
-						</div>
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">Inquiries & Support</button>
-							<ul class="spollers__menu-list">
-								<li class="spollers__menu-item">
-									<a href="tel:380633772934" class="spollers__menu-link">+38063 377 29 34</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" target="_blank" class="spollers__menu-link">Telegram</a>
-								</li>
-								<li class="spollers__menu-item">
-									<a href="#" target="_blank" class="spollers__menu-link">WhatsApp</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="footer__loc-map">
-					<h4 class="footer__title">Address</h4>
-					<a href="https://maps.app.goo.gl/twi2Sm8xScVVvRNK6" class="footer__location">Kyiv, Saksahanskoho Street,
-						20</a>
-					<div class="footer__map">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20329.81172124352!2d30.496998269162543!3d50.436882273536334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cefc59e7fb07%3A0x48253e3fa8c2ab1a!2z0LLRg9C70LjRhtGPINCh0LDQutGB0LDQs9Cw0L3RgdGM0LrQvtCz0L4sIDIwLCDQmtC40ZfQsiwgMDIwMDA!5e0!3m2!1suk!2sua!4v1702991149517!5m2!1suk!2sua"
-							style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-						</iframe>
-					</div>
-				</div>
-			</div>
-			<div class="footer__bottom">
-				<ul class="footer__payment-methods payment-methods">
-					<li class="payment-methods__item">
-						<img src="img/payment-methods/visa.svg" alt="Visa">
-					</li>
-					<li class="payment-methods__item">
-						<img src="img/payment-methods/mastercard.svg" alt="Mastercard">
-					</li>
-					<li class="payment-methods__item">
-						<img src="img/payment-methods/visa-2.svg" alt="Verified by Visa">
-					</li>
-					<li class="payment-methods__item">
-						<img src="img/payment-methods/paypal.svg" alt="PayPal">
-					</li>
-					<li class="payment-methods__item">
-						<img src="img/payment-methods/union-pay.svg" alt="Union-Pay">
-					</li>
-					<li class="payment-methods__item">
-						<img src="img/payment-methods/tether.svg" alt="Tether">
-					</li>
-					<li class="payment-methods__item">
-						<img src="img/payment-methods/bitcoin.svg" alt="Bitcoin">
-					</li>
-				</ul>
-				<div class="footer__text">© 2023 TranSecurity. All rights reserved.</div>
-			</div>
-		</div>
+ -->
 	</div>
-</footer> --> -->
-	</div>
-	<script src="js/app.min.js?_v=20231230152631"></script>
+	<script src="js/app.min.js?_v=20240102212907"></script>
 </body>
 
 </html>
