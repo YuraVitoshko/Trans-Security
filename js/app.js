@@ -7456,8 +7456,6 @@ PERFORMANCE OF THIS SOFTWARE.
             separateDialCode: true,
             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"
         });
-        const imgClosePopup = document.querySelector("#img-popup");
-        if (imgClosePopup && document.documentElement.clientWidth > 767.98) imgClosePopup.style = "display:none"; else imgClosePopup.style = "display: inline-block";
         window["FLS"] = true;
         isWebp();
         menuInit();
