@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240103161945">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240107164147">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<!-- <li class="menu__item"><a href="#" class="menu__link">Home</a></li> -->
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu1">
 								<a href="#" class="menu__link">Our services</a>
 								<ul class="menu__sub-list">
@@ -58,6 +58,14 @@
 				<button type="button" class="actions-header__lang actions-header__lang--active">En</button>
 				<button type="button" class="actions-header__lang">Ua</button>
 			</div> -->
+					<div class="actions-header__social">
+						<a href="#" class="actions-header__link">
+							<img src="img/icons/telegram.svg" alt="Icon">
+						</a>
+						<a href="#" class="actions-header__link">
+							<img src="img/icons/whatsapp.svg" alt="Icon">
+						</a>
+					</div>
 					<div data-da=".menu__list, 639.98" class="actions-header__wrapper">
 						<select class="actions-header__lang" name="form[]" data-class-modif="form">
 							<option value="1" selected>En</option>
@@ -131,7 +139,7 @@
 						</div>
 						<div class="our-benefits__item item-our-benefits">
 							<div class="item-our-benefits__icon">
-								<img src="img/icons/car-sport.svg" alt="Icon">
+								<img src="img/icons/driver.svg" alt="Icon">
 							</div>
 							<div class="item-our-benefits__content">
 								<div class="item-our-benefits__title">Private Drivers</div>
@@ -181,10 +189,13 @@
 							</div>
 							<div class="item-what-we-do__content">
 								<h4 class="item-what-we-do__title">police escort</h4>
-								<div class="item-what-we-do__text">Police escorts are typically requested for a variety of reasons, including ensuring the safety and security of
-									high-profile events, VIPs, or sensitive cargo.
+								<div data-showmore class="item-what-we-do__box">
+									<div data-showmore-content="80" class="item-what-we-do__text">
+										Police escorts are typically requested for a variety of reasons, including ensuring the safety and security of high-profile events, VIPs, or sensitive cargo.
+									</div>
+									<button hidden data-showmore-button type="button" class="item-what-we-do__more"><span>Rental details</span><span>Rental details</span></button>
 								</div>
-								<a href="#" class="item-what-we-do__details">Rental details</a>
+								<!-- <a href="#" class="item-what-we-do__details">Rental details</a> -->
 							</div>
 						</div>
 						<div class="what-we-do__item item-what-we-do">
@@ -193,11 +204,15 @@
 							</div>
 							<div class="item-what-we-do__content">
 								<h4 class="item-what-we-do__title">Luxury Car Rental</h4>
-								<div class="item-what-we-do__text">TranSecurity brings the best close protection bodyguard for you. if you are such a
-									traveler who offers more importance
-									to personal security while traveling, then hiring the best bodyguard security services Kiev can make a big difference
-									for the tour that you are planning next at the Ukrainian capital.</div>
-								<a href="#" class="item-what-we-do__details">Rental details</a>
+								<div data-showmore class="item-what-we-do__box">
+									<div data-showmore-content="80" class="item-what-we-do__text">
+										TranSecurity brings the best close protection bodyguard for you. if you are such a traveler who offers more importance
+										to personal security while traveling, then hiring the best bodyguard security services Kiev can make a big difference
+										for the tour that you are planning next at the Ukrainian capital.
+									</div>
+									<button hidden data-showmore-button type="button" class="item-what-we-do__more"><span>Rental details</span><span>Rental details</span></button>
+								</div>
+								<!-- <a href="#" class="item-what-we-do__details">Rental details</a> -->
 							</div>
 						</div>
 						<div class="what-we-do__item item-what-we-do">
@@ -206,10 +221,14 @@
 							</div>
 							<div class="item-what-we-do__content">
 								<h4 class="item-what-we-do__title">Armed bodyguard</h4>
-								<div class="item-what-we-do__text">The primary role of an armed bodyguard is to ensure the safety of their client. This
-									involves assessing potential risks
-									and taking proactive measures to prevent security.</div>
-								<a href="#" class="item-what-we-do__details">Rental details</a>
+								<div data-showmore class="item-what-we-do__box">
+									<div data-showmore-content="80" class="item-what-we-do__text">
+										The primary role of an armed bodyguard is to ensure the safety of their client. This involves assessing potential risks
+										and taking proactive measures to prevent security.
+									</div>
+									<button hidden data-showmore-button type="button" class="item-what-we-do__more"><span>Rental details</span><span>Rental details</span></button>
+								</div>
+								<!-- <a href="#" class="item-what-we-do__details">Rental details</a> -->
 							</div>
 						</div>
 					</div>
@@ -282,7 +301,7 @@
 													<div class="description-item-card-auto__value">7.5 L</div>
 												</div>
 											</div>
-											<a href="#" class="button button--arrow button--orange card-auto__button">Rental details</a>
+											<a href="#" class="button button--orange card-auto__button">Rental details</a>
 										</div>
 									</div>
 								</div>
@@ -456,9 +475,9 @@
 								</div>
 							</div>
 							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-							<div data-watch class="swiper__buttons premium-slider__buttons">
-								<button type="button" class="premium-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
-								<button type="button" class="premium-slider__swiper-button-next swiper-button-next slider-btn"></button>
+							<div class="swiper__buttons premium-slider__buttons">
+								<button data-watch data-watch-trashold="1" type="button" class="premium-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
+								<button data-watch data-watch-trashold="1" type="button" class="premium-slider__swiper-button-next swiper-button-next slider-btn"></button>
 							</div>
 						</div>
 					</div>
@@ -641,9 +660,9 @@
 								</div>
 							</div>
 							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-							<div data-watch class="swiper__buttons">
-								<button type="button" class="business-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
-								<button type="button" class="business-slider__swiper-button-next swiper-button-next slider-btn"></button>
+							<div class="swiper__buttons premium-slider__buttons">
+								<button data-watch data-watch-trashold="1" type="button" class="premium-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
+								<button data-watch data-watch-trashold="1" type="button" class="premium-slider__swiper-button-next swiper-button-next slider-btn"></button>
 							</div>
 						</div>
 					</div>
@@ -770,9 +789,9 @@
 								</div>
 							</div>
 							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-							<div data-watch class="swiper__buttons">
-								<button type="button" class="suvs-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
-								<button type="button" class="suvs-slider__swiper-button-next swiper-button-next slider-btn"></button>
+							<div class="swiper__buttons premium-slider__buttons">
+								<button data-watch data-watch-trashold="1" type="button" class="premium-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
+								<button data-watch data-watch-trashold="1" type="button" class="premium-slider__swiper-button-next swiper-button-next slider-btn"></button>
 							</div>
 						</div>
 					</div>
@@ -843,9 +862,9 @@
 								</div>
 							</div>
 							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-							<div data-watch class="swiper__buttons">
-								<button type="button" class="vans-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
-								<button type="button" class="vans-slider__swiper-button-next swiper-button-next slider-btn"></button>
+							<div class="swiper__buttons">
+								<button data-watch data-watch-trashold="1" type="button" class="vans-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
+								<button data-watch data-watch-trashold="1" type="button" class="vans-slider__swiper-button-next swiper-button-next slider-btn"></button>
 							</div>
 						</div>
 					</div>
@@ -969,16 +988,16 @@
 					<div class="we-ready__body">
 						<form class="we-ready__form form-we-ready" action="#">
 							<div class="form-we-ready__line">
-								<label class="form-we-ready__label" for="name">Full name</label>
+								<label class="form-we-ready__label" for="name">Full name <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
 								<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
 							</div>
 							<div class="form-we-ready__line">
-								<label class="form-we-ready__label" for="phone">Phone number *</label>
-								<input class="form-we-ready__input input" id="phone" type="tel" name="tel" placeholder="+380 63 123 98 65">
+								<label class="form-we-ready__label" for="phone">Phone number <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
+								<input class="form-we-ready__input input" id="phone" type="tel" name="tel" placeholder="63 123 98 65">
 							</div>
 							<div class="form-we-ready__line">
-								<label class="form-we-ready__label" for="textarea">Label</label>
-								<textarea placeholder="I want to rent Luxury car|" id="textarea" class="form-we-ready__textarea"></textarea>
+								<label class="form-we-ready__label" for="textarea">Message</label>
+								<textarea id="textarea" class="form-we-ready__textarea"></textarea>
 							</div>
 							<div class="form-we-ready__checkbox checkbox">
 								<input id="c_1" data-error="error" class="checkbox__input" type="checkbox" value="1" name="form[]">
@@ -1067,18 +1086,19 @@
 					<div class="form-we-ready__terms">/ day</div>
 				</div>
 				<div class="form-we-ready__line">
-					<label class="form-we-ready__label" for="name">Full name</label>
+					<label class="form-we-ready__label" for="name">Full name <span><img src="img/icons/star.png"
+								alt="icon"></span></label>
 					<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required"
 						placeholder="Enter a full name" class="form-we-ready__input input">
 				</div>
 				<div class="form-we-ready__line">
-					<label class="form-we-ready__label" for="phone">Phone number *</label>
-					<input class="form-we-ready__input input" id="phone" required type="tel" name="tel"
-						placeholder="+380 63 123 98 65">
+					<label class="form-we-ready__label" for="phone">Phone number <span><img src="img/icons/star.png"
+								alt="icon"></span></label>
+					<input class="form-we-ready__input input" id="phone" type="tel" name="tel" placeholder="63 123 98 65">
 				</div>
 				<div class="form-we-ready__line">
-					<label class="form-we-ready__label" for="textarea">Label</label>
-					<textarea placeholder="I want to rent Luxury car|" id="textarea" class="form-we-ready__textarea"></textarea>
+					<label class="form-we-ready__label" for="textarea">Message</label>
+					<textarea id="textarea" class="form-we-ready__textarea"></textarea>
 				</div>
 				<div class="form-we-ready__checkbox checkbox">
 					<input id="checkbox" data-error="error" class="checkbox__input" type="checkbox" value="1" name="form[]">
@@ -1200,7 +1220,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20240103161945"></script>
+	<script src="js/app.min.js?_v=20240107164147"></script>
 </body>
 
 </html>

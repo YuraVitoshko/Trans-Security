@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240103161945">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240107164147">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<!-- <li class="menu__item"><a href="#" class="menu__link">Home</a></li> -->
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu1">
 								<a href="#" class="menu__link">Our services</a>
 								<ul class="menu__sub-list">
@@ -58,6 +58,14 @@
 				<button type="button" class="actions-header__lang actions-header__lang--active">En</button>
 				<button type="button" class="actions-header__lang">Ua</button>
 			</div> -->
+					<div class="actions-header__social">
+						<a href="#" class="actions-header__link">
+							<img src="img/icons/telegram.svg" alt="Icon">
+						</a>
+						<a href="#" class="actions-header__link">
+							<img src="img/icons/whatsapp.svg" alt="Icon">
+						</a>
+					</div>
 					<div data-da=".menu__list, 639.98" class="actions-header__wrapper">
 						<select class="actions-header__lang" name="form[]" data-class-modif="form">
 							<option value="1" selected>En</option>
@@ -92,27 +100,27 @@
 					<div data-gallery class="model__gallery gallery-model">
 						<a href="img/model/gallery/image01.jpg" class="gallery-model__item item-gallery item-gallery--big">
 							<div class="item-gallery__image item-gallery__image--big">
-								<picture><source srcset="img/model/gallery/image01.webp" type="image/webp"><img src="img/model/gallery/image01.jpg" alt="01"></picture>
+								<picture><source srcset="img/model/gallery/image01.webp" type="image/webp"><img src="img/model/gallery/image01.jpg" alt=""></picture>
 							</div>
 						</a>
 						<a href="img/model/gallery/image02.jpg" class="gallery-model__item item-gallery item-gallery--width">
 							<div class="item-gallery__image">
-								<picture><source srcset="img/model/gallery/image02.webp" type="image/webp"><img src="img/model/gallery/image02.jpg" alt="02"></picture>
+								<picture><source srcset="img/model/gallery/image02.webp" type="image/webp"><img src="img/model/gallery/image02.jpg" alt=""></picture>
 							</div>
 						</a>
-						<a href="img/model/gallery/image03.jpg" class="gallery-model__item item-gallery item-gallery--border">
+						<a href="img/model/gallery/image03.jpg" class="gallery-model__item item-gallery">
 							<div class="item-gallery__image">
-								<picture><source srcset="img/model/gallery/image03.webp" type="image/webp"><img src="img/model/gallery/image03.jpg" alt="03"></picture>
+								<picture><source srcset="img/model/gallery/image03.webp" type="image/webp"><img src="img/model/gallery/image03.jpg" alt=""></picture>
 							</div>
 						</a>
 						<a href="img/model/gallery/image04.jpg" class="gallery-model__item item-gallery item-gallery--width">
 							<div class="item-gallery__image">
-								<picture><source srcset="img/model/gallery/image04.webp" type="image/webp"><img src="img/model/gallery/image04.jpg" alt="04"></picture>
+								<picture><source srcset="img/model/gallery/image04.webp" type="image/webp"><img src="img/model/gallery/image04.jpg" alt=""></picture>
 							</div>
 						</a>
-						<a href="img/model/gallery/image05.jpg" class="gallery-model__item item-gallery item-gallery--border">
+						<a href="img/model/gallery/image05.jpg" class="gallery-model__item item-gallery">
 							<div class="item-gallery__image">
-								<picture><source srcset="img/model/gallery/image05.webp" type="image/webp"><img src="img/model/gallery/image05.jpg" alt="05"></picture>
+								<picture><source srcset="img/model/gallery/image05.webp" type="image/webp"><img src="img/model/gallery/image05.jpg" alt=""></picture>
 							</div>
 						</a>
 					</div>
@@ -338,16 +346,16 @@
 							</div>
 						</div>
 						<div class="form-we-ready__line">
-							<label class="form-we-ready__label" for="name">Full name</label>
+							<label class="form-we-ready__label" for="name">Full name <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
 							<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
 						</div>
 						<div class="form-we-ready__line">
-							<label class="form-we-ready__label" for="phone">Phone number *</label>
-							<input class="form-we-ready__input input" id="phone" type="tel" name="tel" placeholder="+380 63 123 98 65">
+							<label class="form-we-ready__label" for="phone">Phone number <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
+							<input class="form-we-ready__input input" id="phone" type="tel" name="tel" placeholder="63 123 98 65">
 						</div>
 						<div class="form-we-ready__line">
-							<label class="form-we-ready__label" for="textarea">Label</label>
-							<textarea placeholder="I want to rent Luxury car|" id="textarea" class="form-we-ready__textarea"></textarea>
+							<label class="form-we-ready__label" for="textarea">Message</label>
+							<textarea id="textarea" class="form-we-ready__textarea"></textarea>
 						</div>
 						<div class="form-we-ready__checkbox checkbox">
 							<input id="c_1" data-error="error" class="checkbox__input" type="checkbox" value="1" name="form[]">
@@ -579,9 +587,9 @@
 									</div>
 								</div>
 							</div>
-							<div data-watch class="swiper__buttons premium-slider__buttons">
-								<button type="button" class="premium-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
-								<button type="button" class="premium-slider__swiper-button-next swiper-button-next slider-btn"></button>
+							<div class="swiper__buttons premium-slider__buttons">
+								<button data-watch data-watch-trashold="1" type="button" class="premium-slider__swiper-button-prev swiper-button-prev slider-btn"></button>
+								<button data-watch data-watch-trashold="1" type="button" class="premium-slider__swiper-button-next swiper-button-next slider-btn"></button>
 							</div>
 						</div>
 					</div>
@@ -839,16 +847,16 @@
 						<div class="form-we-ready__terms">/ day</div>
 					</div>
 					<div class="form-we-ready__line">
-						<label class="form-we-ready__label" for="name">Full name</label>
+						<label class="form-we-ready__label" for="name">Full name <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
 						<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
 					</div>
 					<div class="form-we-ready__line">
-						<label class="form-we-ready__label" for="phone">Phone number *</label>
-						<input class="form-we-ready__input input" id="phone" required type="tel" name="tel" placeholder="+380 63 123 98 65">
+						<label class="form-we-ready__label" for="phone">Phone number <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
+						<input class="form-we-ready__input input" id="phone" type="tel" name="tel" placeholder="63 123 98 65">
 					</div>
 					<div class="form-we-ready__line">
-						<label class="form-we-ready__label" for="textarea">Label</label>
-						<textarea placeholder="I want to rent Luxury car|" id="textarea" class="form-we-ready__textarea"></textarea>
+						<label class="form-we-ready__label" for="textarea">Message</label>
+						<textarea id="textarea" class="form-we-ready__textarea"></textarea>
 					</div>
 					<div class="form-we-ready__checkbox checkbox">
 						<input id="checkbox" data-error="error" class="checkbox__input" type="checkbox" value="1" name="form[]">
@@ -870,7 +878,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20240103161945"></script>
+	<script src="js/app.min.js?_v=20240107164147"></script>
 </body>
 
 </html>
