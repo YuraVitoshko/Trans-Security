@@ -7800,6 +7800,33 @@ PERFORMANCE OF THIS SOFTWARE.
         da.init();
         var intl_tel_input = __webpack_require__(699);
         document.addEventListener("DOMContentLoaded", (function() {
+            var items = document.querySelectorAll(".types-car-catalog__item");
+            items.forEach((function(item) {
+                item.addEventListener("click", (function(event) {
+                    var list = this.querySelector(".item-types-car-catalog__list");
+                    items.forEach((function(otherItem) {
+                        if (otherItem !== item) {
+                            var otherList = otherItem.querySelector(".item-types-car-catalog__list");
+                            otherList.style.display = "none";
+                            otherItem.classList.remove("_active");
+                        }
+                    }));
+                    list.style.display = list.style.display === "none" || list.style.display === "" ? "block" : "none";
+                    this.classList.toggle("_active");
+                    event.stopPropagation();
+                }));
+            }));
+            document.addEventListener("click", (function(event) {
+                items.forEach((function(item) {
+                    var list = item.querySelector(".item-types-car-catalog__list");
+                    if (list.style.display === "block" && !item.contains(event.target)) {
+                        list.style.display = "none";
+                        item.classList.remove("_active");
+                    }
+                }));
+            }));
+        }));
+        document.addEventListener("DOMContentLoaded", (function() {
             var subMenus = document.querySelectorAll(".menu__item--sub-menu");
             subMenus.forEach((function(menuItem) {
                 menuItem.addEventListener("click", (function(event) {
