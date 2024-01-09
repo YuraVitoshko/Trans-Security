@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Car Rental</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240109124717">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll class="header">
+			<div class="header__container">
+				<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<!-- <li class="menu__item"><a href="#" class="menu__link">Home</a></li> -->
+							<li class="menu__item menu__item--sub-menu" data-submenu="submenu1">
+								<a href="#" class="menu__link">Our services</a>
+								<ul class="menu__sub-list menu__sub-list--long">
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Police escort</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Luxury Car Rental</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Armed bodyguard</a></li>
+								</ul>
+							</li>
+							<li class="menu__item menu__item--sub-menu" data-submenu="submenu2">
+								<a href="#" class="menu__link">Car rent</a>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Premium Class</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Business Class</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Vans</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">SUVs</a></li>
+								</ul>
+							</li>
+							<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+						</ul>
+						<ul class="menu__contacts contacts-menu">
+							<li class="contacts-menu__item">
+								<div class="contacts-menu__icon"><img src="img/icons/telegram.svg" alt="icon"></div>
+								<a href="#" class="contacts-menu__link">Telegram</a>
+							</li>
+							<li class="contacts-menu__item">
+								<div class="contacts-menu__icon"><img src="img/icons/whatsapp.svg" alt="icon"></div>
+								<a href="#" class="contacts-menu__link">WhatsApp</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-da=".menu__body, 639.98, 1" href="tel:380633772934" class="actions-header__phone">+38063 377 29 34</a>
+					<!-- <div data-da=".menu__body, 767.98" class="actions-header__selection-language">
+				<button type="button" class="actions-header__lang actions-header__lang--active">En</button>
+				<button type="button" class="actions-header__lang">Ua</button>
+			</div> -->
+					<div class="actions-header__social">
+						<a href="#" class="actions-header__link">
+							<img src="img/icons/telegram.svg" alt="Icon">
+						</a>
+						<a href="#" class="actions-header__link">
+							<img src="img/icons/whatsapp.svg" alt="Icon">
+						</a>
+					</div>
+					<div data-da=".menu__list, 639.98" class="actions-header__wrapper">
+						<select class="actions-header__lang" name="form[]" data-class-modif="form">
+							<option value="1" selected>En</option>
+							<option value="2">Ua</option>
+							<option value="3">Ru</option>
+						</select>
+					</div>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="car-rental-hero">
+				<picture><source srcset="img/car-rental/hero-image.webp" type="image/webp"><img class="car-rental-hero__bg" src="img/car-rental/hero-image.jpg" alt="Image"></picture>
+				<div class="car-rental-hero__container">
+					<h1 class="car-rental-hero__title">Luxury car rental</h1>
+				</div>
+			</section>
+			<section class="car-catalog">
+				<div class="car-catalog__container">
+					<div class="car-catalog__breadcrumbs breadcrumbs">
+						<div class="breadcrumbs__inner">
+							<ul class="breadcrumbs__list">
+								<li class="breadcrumbs__item breadcrumbs__item--color">
+									<a href="#" class="breadcrumbs__link">Home</a>
+								</li>
+								<li class="breadcrumbs__item breadcrumbs__item--color">
+									<a href="#" class="breadcrumbs__link">Our services</a>
+								</li>
+								<li class="breadcrumbs__item breadcrumbs__item--color">
+									<span>Luxury car rental</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="car-catalog__block-header block-header">
+						<div class=" block-header__subtitle">browse our luxury fleet</div>
+						<h2 class="block-header__title">Car Catalog</h2>
+					</div>
+					<a data-popup="#popup-filtres" href="#" class="car-catalog__button button button--orange">Filtres</a>
+					<div class="car-catalog__types types-car-catalog">
+						<div class="types-car-catalog__items">
+							<div id="types-1" class="types-car-catalog__item item-types-car-catalog">Sort by
+								<div class="item-types-car-catalog__list">
+									<div class="checkbox">
+										<input id="sort_1" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
+										<label for="sort_1" class="checkbox__label"><span class="checkbox__text">Recommended</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="sort_2" data-error="Error" class="checkbox__input" type="checkbox" value="2" name="form[]">
+										<label for="sort_2" class="checkbox__label"><span class="checkbox__text">From low to high</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="sort_3" data-error="Error" class="checkbox__input" type="checkbox" value="3" name="form[]">
+										<label for="sort_3" class="checkbox__label"><span class="checkbox__text">From high to low</span></label>
+									</div>
+								</div>
+							</div>
+							<div id="types-2" class="types-car-catalog__item item-types-car-catalog">Body Tape
+								<div class="item-types-car-catalog__list">
+									<div class="checkbox">
+										<input id="tape_1" data-error="Error" class="checkbox__input" type="checkbox" value="5" name="form[]">
+										<label for="tape_1" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="tape_2" data-error="Error" class="checkbox__input" type="checkbox" value="6" name="form[]">
+										<label for="tape_2" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="tape_3" data-error="Error" class="checkbox__input" type="checkbox" value="7" name="form[]">
+										<label for="tape_3" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="tape_4" data-error="Error" class="checkbox__input" type="checkbox" value="8" name="form[]">
+										<label for="tape_4" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+									</div>
+								</div>
+							</div>
+							<div id="types-3" class="types-car-catalog__item item-types-car-catalog">Brands
+								<div class="item-types-car-catalog__list">
+									<div class="checkbox">
+										<input id="brands_1" data-error="Error" class="checkbox__input" type="checkbox" value="9" name="form[]">
+										<label for="brands_1" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="brands_2" data-error="Error" class="checkbox__input" type="checkbox" value="10" name="form[]">
+										<label for="brands_2" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="brands_3" data-error="Error" class="checkbox__input" type="checkbox" value="11" name="form[]">
+										<label for="brands_3" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="brands_4" data-error="Error" class="checkbox__input" type="checkbox" value="12" name="form[]">
+										<label for="brands_4" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="types-car-catalog__selected">Recommended</div>
+					</div>
+					<div class="car-catalog__showing">Showing 1 - 10 of 10 cars</div>
+					<!-- <div data-spollers="768,max" class="car-catalog__filters">
+							<details class="car-catalog__types types-car-catalog">
+								<summary class="types-car-catalog__title">Filters</summary>
+								<div class="types-car-catalog__items">
+									<div id="types-1" class="types-car-catalog__item item-types-car-catalog">Sort by
+										<div class="item-types-car-catalog__list">
+											<div class="checkbox">
+												<input id="sort_1" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="sort_1" class="checkbox__label"><span class="checkbox__text">Recommended</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="sort_2" data-error="Error" class="checkbox__input" type="checkbox" value="2" name="form[]">
+												<label for="sort_2" class="checkbox__label"><span class="checkbox__text">From low to high</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="sort_3" data-error="Error" class="checkbox__input" type="checkbox" value="3" name="form[]">
+												<label for="sort_3" class="checkbox__label"><span class="checkbox__text">From high to low</span></label>
+											</div>
+										</div>
+									</div>
+									<div id="types-2" class="types-car-catalog__item item-types-car-catalog">Body Tape
+										<div class="item-types-car-catalog__list">
+											<div class="checkbox">
+												<input id="tape_1" data-error="Error" class="checkbox__input" type="checkbox" value="5" name="form[]">
+												<label for="tape_1" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="tape_2" data-error="Error" class="checkbox__input" type="checkbox" value="6" name="form[]">
+												<label for="tape_2" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="tape_3" data-error="Error" class="checkbox__input" type="checkbox" value="7" name="form[]">
+												<label for="tape_3" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="tape_4" data-error="Error" class="checkbox__input" type="checkbox" value="8" name="form[]">
+												<label for="tape_4" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+											</div>
+										</div>
+									</div>
+									<div id="types-3" class="types-car-catalog__item item-types-car-catalog">Brands
+										<div class="item-types-car-catalog__list">
+											<div class="checkbox">
+												<input id="brands_1" data-error="Error" class="checkbox__input" type="checkbox" value="9" name="form[]">
+												<label for="brands_1" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="brands_2" data-error="Error" class="checkbox__input" type="checkbox" value="10" name="form[]">
+												<label for="brands_2" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="brands_3" data-error="Error" class="checkbox__input" type="checkbox" value="11" name="form[]">
+												<label for="brands_3" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="brands_4" data-error="Error" class="checkbox__input" type="checkbox" value="12" name="form[]">
+												<label for="brands_4" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="types-car-catalog__selected">Recommended</div>
+							</details>
+						</div> -->
+					<div class="car-catalog__models">
+						<div class="car-catalog__cards">
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/bmw.webp" type="image/webp"><img src="img/our-fleet-sliders/bmw.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$280</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$850</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$2920</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">bmw_750li</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2021</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">240 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">3.7 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">650 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">7.5 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--orange card-auto__button">Rental details</a>
+								</div>
+							</div>
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/maybach.webp" type="image/webp"><img src="img/our-fleet-sliders/maybach.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$320</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$900</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$3290</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">Maybach S550</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2020</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">209 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">5.8 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">986 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">3.0 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--orange button--arrow card-auto__button">Rental details</a>
+								</div>
+							</div>
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/range-rover.webp" type="image/webp"><img src="img/our-fleet-sliders/range-rover.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$400</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$1150</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$3900</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">Range Rover</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2020</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">200 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">5.2 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">523 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">3.2 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--orange button--arrow card-auto__button">Rental details</a>
+								</div>
+							</div>
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/cadillac.webp" type="image/webp"><img src="img/our-fleet-sliders/cadillac.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$520</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$2650</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$7190</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">Cadillac CT5-V</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2023</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">260 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">4.2 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">721 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">5.0 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--orange button--arrow card-auto__button">Rental details</a>
+								</div>
+							</div>
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/audi.webp" type="image/webp"><img src="img/our-fleet-sliders/audi.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$380</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$2420</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$4060</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">Audi A6</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2019</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">220 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">4.8 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">486 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">6.0 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--arrow button--orange card-auto__button">Rental details</a>
+								</div>
+							</div>
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/mersedes.webp" type="image/webp"><img src="img/our-fleet-sliders/mersedes.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$420</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$2980</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$5600</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">Mercedes-Benz-E200</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2020</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">209 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">4.2 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">604 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">3.5 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--orange button--arrow card-auto__button">Rental details</a>
+								</div>
+							</div>
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/bmw-m8.webp" type="image/webp"><img src="img/our-fleet-sliders/bmw-m8.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$490</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$3140</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$6270</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">BMW m8</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2022</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">240 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">3.9 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">709 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">5.5 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--orange button--arrow card-auto__button">Rental details</a>
+								</div>
+							</div>
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/volvo.webp" type="image/webp"><img src="img/our-fleet-sliders/volvo.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$420</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$1500</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$4650</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">Volvo XC 90</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2022</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">220 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">5.8 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">621 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">6.0 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--arrow button--orange card-auto__button">Rental details</a>
+								</div>
+							</div>
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/porche-cayene.webp" type="image/webp"><img src="img/our-fleet-sliders/porche-cayene.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$600</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$2100</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$6400</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">Porshe Cayene</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2023</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">260 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">3.8 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">692 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">5.5 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--orange button--arrow card-auto__button">Rental details</a>
+								</div>
+							</div>
+							<div class="car-catalog__card card-auto">
+								<a href="#" class="card-auto__image">
+									<picture><source srcset="img/our-fleet-sliders/mersedes-metris.webp" type="image/webp"><img src="img/our-fleet-sliders/mersedes-metris.jpg" alt="Car"></picture>
+								</a>
+								<div class="card-auto__body">
+									<div class="card-auto__prices prices-card-auto">
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Day</div>
+											<div class="prices-card-auto__price">$260</div>
+										</div>
+										<div class="prices-card-auto__item prices-card-auto__item--border">
+											<div class="prices-card-auto__label">Week</div>
+											<div class="prices-card-auto__price">$1120</div>
+										</div>
+										<div class="prices-card-auto__item">
+											<div class="prices-card-auto__label">Month</div>
+											<div class="prices-card-auto__price">$3180</div>
+										</div>
+									</div>
+									<a href="#" class="card-auto__model">Mercedes-Benz-Metris</a>
+									<div class="card-auto__description-items">
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/calendar.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">2018</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-max.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">190 km/h</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/speed-sec.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">6.8 sec</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-power.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">512 hp</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/seat.svg" alt="Icon"></div>
+											<div class="description-item-card-auto__value">4</div>
+										</div>
+										<div class="card-auto__description-item description-item-card-auto">
+											<div class="description-item-card-auto__icon"><img src="img/card-auto/icons/engine-fill.svg" alt="Icon">
+											</div>
+											<div class="description-item-card-auto__value">4.5 L</div>
+										</div>
+									</div>
+									<a href="#" class="button button--arrow button--orange card-auto__button">Rental details</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="how-its-work">
+				<div class="how-its-work__container">
+					<div class="how-its-work__block-header block-header">
+						<div class=" block-header__subtitle">How its work</div>
+						<h2 class="block-header__title block-header__title--white">How to order a service</h2>
+					</div>
+					<div class="how-its-work__items">
+						<div class="how-its-work__item item-how-its-work">
+							<div class="item-how-its-work__icon"><img src="img/icons/wheel.svg" alt="icon"></div>
+							<div class="item-how-its-work__subtitle">choose a Service</div>
+							<div class="item-how-its-work__text">The elongated body of the sedan conveys an air of opulence and prestige
+							</div>
+						</div>
+						<div class="how-its-work__item item-how-its-work">
+							<div class="item-how-its-work__icon"><img src="img/icons/pencil.svg" alt="icon"></div>
+							<div class="item-how-its-work__subtitle">Fill Contact Details</div>
+							<div class="item-how-its-work__text">The elongated body of the sedan conveys an air of opulence and prestige
+							</div>
+						</div>
+						<div class="how-its-work__item item-how-its-work">
+							<div class="item-how-its-work__icon"><img src="img/icons/call-incoming.svg" alt="icon"></div>
+							<div class="item-how-its-work__subtitle">Wait manager call</div>
+							<div class="item-how-its-work__text">The elongated body of the sedan conveys an air of opulence and prestige
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="we-ready">
+				<div class="we-ready__container">
+					<div class="we-ready__block-header block-header">
+						<div class=" block-header__subtitle">We ready 24 hours for you</div>
+						<h2 class="block-header__title">Our protection is always there 24 hours</h2>
+					</div>
+					<div class="we-ready__body">
+						<form class="we-ready__form form-we-ready" action="#">
+							<div class="form-we-ready__line">
+								<label class="form-we-ready__label" for="name">Full name <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
+								<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
+							</div>
+							<div class="form-we-ready__line">
+								<label class="form-we-ready__label" for="phone">Phone number <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
+								<input class="form-we-ready__input input" id="phone" type="tel" name="tel" placeholder="63 123 98 65">
+							</div>
+							<div class="form-we-ready__line">
+								<label class="form-we-ready__label" for="textarea">Message</label>
+								<textarea id="textarea" class="form-we-ready__textarea"></textarea>
+							</div>
+							<div class="form-we-ready__checkbox checkbox">
+								<input id="c_1" data-error="error" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_1" class="checkbox__label"><span class="checkbox__text">I agree all statements in <a class="checkbox__link" href="#">Terms of services</a></span></label>
+							</div>
+							<div class="form-we-ready__actions actions-form">
+								<button type="submit" class="actions-form__button button button--orange button--arrow">Book a call</button>
+								<div class="actions-form__text">Or contact directly:</div>
+								<div class="actions-form__social">
+									<a href="#" class="actions-form__link">
+										<img src="img/icons/telegram.svg" alt="Icon">
+									</a>
+									<a href="#" class="actions-form__link">
+										<img src="img/icons/whatsapp.svg" alt="Icon">
+									</a>
+								</div>
+							</div>
+						</form>
+						<div class="we-ready__contacts contacts-we-ready contacts-we-ready--none">
+							<div class="contacts-we-ready__top top-contacts-we-ready">
+								<h2 class="top-contacts-we-ready__title">Contact information</h2>
+								<div class="top-contacts-we-ready__paragraphs">
+									<p>Contact us 24/7 and we will assess your needs to find the best solutions for you</p>
+									<p>We respond to our clients’ requests within 24 hours.</p>
+								</div>
+							</div>
+							<ul class="contacts-we-ready__list">
+								<li class="contacts-we-ready__item">
+									<div class="contacts-we-ready__subtitle">Address:</div>
+									<a class="contacts-we-ready__link" href="#">Kyiv, Saksahanskoho Street, 20</a>
+								</li>
+								<li class="contacts-we-ready__item">
+									<div class="contacts-we-ready__subtitle">Phone:</div>
+									<a class="contacts-we-ready__link" href="tel:380633772934">+38063 377 29 34</a>
+								</li>
+								<li class="contacts-we-ready__item">
+									<div class="contacts-we-ready__subtitle">Email:</div>
+									<a class="contacts-we-ready__link" href="mailto:transecurity@gmail.com">transecurity@gmail.com</a>
+								</li>
+							</ul>
+							<div class="contacts-we-ready__text">We respond to our clients’ requests within 24 hours</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="what-we-do">
+				<div class="what-we-do__container">
+					<div class="what-we-do__block-header block-header">
+						<div class=" block-header__subtitle">What we do</div>
+						<h2 class="block-header__title block-header__title--white">Services we prowide</h2>
+					</div>
+					<div class="what-we-do__body">
+						<div class="what-we-do__item item-what-we-do">
+							<div class="item-what-we-do__image">
+								<picture><source srcset="img/what-we-do/01.webp" type="image/webp"><img src="img/what-we-do/01.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-what-we-do__content">
+								<h4 class="item-what-we-do__title">police escort</h4>
+								<div data-showmore class="item-what-we-do__box">
+									<div data-showmore-content="80" class="item-what-we-do__text">
+										Police escorts are typically requested for a variety of reasons, including ensuring the safety and
+										security of high-profile events, VIPs, or sensitive cargo.
+									</div>
+									<button hidden data-showmore-button type="button" class="item-what-we-do__more"><span>Rental
+											details</span><span>Rental details</span></button>
+								</div>
+								<!-- <a href="#" class="item-what-we-do__details">Rental details</a> -->
+							</div>
+						</div>
+						<div class="what-we-do__item item-what-we-do">
+							<div class="item-what-we-do__image">
+								<picture><source srcset="img/what-we-do/02.webp" type="image/webp"><img src="img/what-we-do/02.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-what-we-do__content">
+								<h4 class="item-what-we-do__title">Luxury Car Rental</h4>
+								<div data-showmore class="item-what-we-do__box">
+									<div data-showmore-content="80" class="item-what-we-do__text">
+										TranSecurity brings the best close protection bodyguard for you. if you are such a traveler who
+										offers more importance
+										to personal security while traveling, then hiring the best bodyguard security services Kiev can
+										make a big difference
+										for the tour that you are planning next at the Ukrainian capital.
+									</div>
+									<button hidden data-showmore-button type="button" class="item-what-we-do__more"><span>Rental
+											details</span><span>Rental details</span></button>
+								</div>
+								<!-- <a href="#" class="item-what-we-do__details">Rental details</a> -->
+							</div>
+						</div>
+						<div class="what-we-do__item item-what-we-do">
+							<div class="item-what-we-do__image">
+								<picture><source srcset="img/what-we-do/03.webp" type="image/webp"><img src="img/what-we-do/03.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-what-we-do__content">
+								<h4 class="item-what-we-do__title">Armed bodyguard</h4>
+								<div data-showmore class="item-what-we-do__box">
+									<div data-showmore-content="80" class="item-what-we-do__text">
+										The primary role of an armed bodyguard is to ensure the safety of their client. This involves
+										assessing potential risks
+										and taking proactive measures to prevent security.
+									</div>
+									<button hidden data-showmore-button type="button" class="item-what-we-do__more"><span>Rental
+											details</span><span>Rental details</span></button>
+								</div>
+								<!-- <a href="#" class="item-what-we-do__details">Rental details</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__item item-footer">
+							<h4 class="item-footer__title">Company</h4>
+							<ul class="item-footer__menu-list">
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Home</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item item-footer">
+							<h4 class="item-footer__title">Car rental</h4>
+							<ul class="item-footer__menu-list">
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Premium Class</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">SUVs</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Business Class</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Vans</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item item-footer">
+							<h4 class="item-footer__title">Our SERVICES</h4>
+							<ul class="item-footer__menu-list">
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Luxury Car Rental</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Police escort</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="#" class="item-footer__menu-link">Armed bodyguard</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item item-footer">
+							<h4 class="item-footer__title">Contact Us</h4>
+							<ul class="item-footer__menu-list">
+								<li class="item-footer__menu-item">
+									<a href="tel:380633772934" class="item-footer__menu-link">+38063 377 29 34</a>
+								</li>
+								<li class="item-footer__menu-item">
+									<a href="mailto:transecurity@gmail.com" class="item-footer__menu-link">transecurity@gmail.com</a>
+								</li>
+								<li class="item-footer__menu-item item-footer__menu-item--tel">
+									<a href="#" class="item-footer__menu-link">Telegram</a>
+								</li>
+								<li class="item-footer__menu-item item-footer__menu-item--what">
+									<a href="#" class="item-footer__menu-link">WhatsApp</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<div class="footer__wrapper">
+						<ul class="footer__payment-methods payment-methods">
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/visa.svg" alt="Visa">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/mastercard.svg" alt="Mastercard">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/visa-2.svg" alt="Verified by Visa">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/paypal.svg" alt="PayPal">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/union-pay.svg" alt="Union-Pay">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/tether.svg" alt="Tether">
+							</li>
+							<li class="payment-methods__item">
+								<img src="img/payment-methods/bitcoin.svg" alt="Bitcoin">
+							</li>
+						</ul>
+						<div class="footer__text">© 2023 TranSecurity. All rights reserved.</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div id="popup-filtres" aria-hidden="true" class="popup-filtres">
+			<div class="popup-filtres__wrapper">
+				<div class="popup-filtres__content">
+					<div class="popup-filtres__top">
+						<div class="popup-filtres__body">
+							<h3 class="popup-filtres__title">Filters</h3>
+							<button data-close type="button" class="popup-filtres__close"><img id="img-popup" src="img/icons/close.svg" alt=""></button>
+						</div>
+						<div class="popup-filtres__types types-car-catalog">
+							<div class="types-car-catalog__items">
+								<div id="types-1" class="types-car-catalog__item item-types-car-catalog">Sort by
+									<div class="item-types-car-catalog__list">
+										<div class="checkbox">
+											<input id="sort_1" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="sort_1" class="checkbox__label"><span class="checkbox__text">Recommended</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="sort_2" data-error="Error" class="checkbox__input" type="checkbox" value="2" name="form[]">
+											<label for="sort_2" class="checkbox__label"><span class="checkbox__text">From low to high</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="sort_3" data-error="Error" class="checkbox__input" type="checkbox" value="3" name="form[]">
+											<label for="sort_3" class="checkbox__label"><span class="checkbox__text">From high to low</span></label>
+										</div>
+									</div>
+								</div>
+								<div id="types-2" class="types-car-catalog__item item-types-car-catalog">Body Tape
+									<div class="item-types-car-catalog__list">
+										<div class="checkbox">
+											<input id="tape_1" data-error="Error" class="checkbox__input" type="checkbox" value="5" name="form[]">
+											<label for="tape_1" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="tape_2" data-error="Error" class="checkbox__input" type="checkbox" value="6" name="form[]">
+											<label for="tape_2" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="tape_3" data-error="Error" class="checkbox__input" type="checkbox" value="7" name="form[]">
+											<label for="tape_3" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="tape_4" data-error="Error" class="checkbox__input" type="checkbox" value="8" name="form[]">
+											<label for="tape_4" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										</div>
+									</div>
+								</div>
+								<div id="types-3" class="types-car-catalog__item item-types-car-catalog">Brands
+									<div class="item-types-car-catalog__list">
+										<div class="checkbox">
+											<input id="brands_1" data-error="Error" class="checkbox__input" type="checkbox" value="9" name="form[]">
+											<label for="brands_1" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="brands_2" data-error="Error" class="checkbox__input" type="checkbox" value="10" name="form[]">
+											<label for="brands_2" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="brands_3" data-error="Error" class="checkbox__input" type="checkbox" value="11" name="form[]">
+											<label for="brands_3" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="brands_4" data-error="Error" class="checkbox__input" type="checkbox" value="12" name="form[]">
+											<label for="brands_4" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- <div class="types-car-catalog__selected">Recommended</div> -->
+						</div>
+					</div>
+					<div class="popup-filtres__buttons">
+						<a data-close href="#" class="popup-filtres__button button">Cancel</a>
+						<button class="popup-filtres__button button button--orange">Confirm</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240109124717"></script>
+</body>
+
+</html>
