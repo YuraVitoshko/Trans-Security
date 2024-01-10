@@ -6,7 +6,7 @@
             })((function(undefined) {
                 "use strict";
                 return function() {
-                    var allCountries = [ [ "Afghanistan (‫افغانستان‬‎)", "af", "93" ], [ "Albania (Shqipëri)", "al", "355" ], [ "Algeria (‫الجزائر‬‎)", "dz", "213" ], [ "American Samoa", "as", "1", 5, [ "684" ] ], [ "Andorra", "ad", "376" ], [ "Angola", "ao", "244" ], [ "Anguilla", "ai", "1", 6, [ "264" ] ], [ "Antigua and Barbuda", "ag", "1", 7, [ "268" ] ], [ "Argentina", "ar", "54" ], [ "Armenia (Հայաստան)", "am", "374" ], [ "Aruba", "aw", "297" ], [ "Ascension Island", "ac", "247" ], [ "Australia", "au", "61", 0 ], [ "Austria (Österreich)", "at", "43" ], [ "Azerbaijan (Azərbaycan)", "az", "994" ], [ "Bahamas", "bs", "1", 8, [ "242" ] ], [ "Bahrain (‫البحرين‬‎)", "bh", "973" ], [ "Bangladesh (বাংলাদেশ)", "bd", "880" ], [ "Barbados", "bb", "1", 9, [ "246" ] ], [ "Belarus (Беларусь)", "by", "375" ], [ "Belgium (België)", "be", "32" ], [ "Belize", "bz", "501" ], [ "Benin (Bénin)", "bj", "229" ], [ "Bermuda", "bm", "1", 10, [ "441" ] ], [ "Bhutan (འབྲུག)", "bt", "975" ], [ "Bolivia", "bo", "591" ], [ "Bosnia and Herzegovina (Босна и Херцеговина)", "ba", "387" ], [ "Botswana", "bw", "267" ], [ "Brazil (Brasil)", "br", "55" ], [ "British Indian Ocean Territory", "io", "246" ], [ "British Virgin Islands", "vg", "1", 11, [ "284" ] ], [ "Brunei", "bn", "673" ], [ "Bulgaria (България)", "bg", "359" ], [ "Burkina Faso", "bf", "226" ], [ "Burundi (Uburundi)", "bi", "257" ], [ "Cambodia (កម្ពុជា)", "kh", "855" ], [ "Cameroon (Cameroun)", "cm", "237" ], [ "Canada", "ca", "1", 1, [ "204", "226", "236", "249", "250", "263", "289", "306", "343", "354", "365", "367", "368", "382", "387", "403", "416", "418", "428", "431", "437", "438", "450", "584", "468", "474", "506", "514", "519", "548", "579", "581", "584", "587", "604", "613", "639", "647", "672", "683", "705", "709", "742", "753", "778", "780", "782", "807", "819", "825", "867", "873", "902", "905" ] ], [ "Cape Verde (Kabu Verdi)", "cv", "238" ], [ "Caribbean Netherlands", "bq", "599", 1, [ "3", "4", "7" ] ], [ "Cayman Islands", "ky", "1", 12, [ "345" ] ], [ "Central African Republic (République centrafricaine)", "cf", "236" ], [ "Chad (Tchad)", "td", "235" ], [ "Chile", "cl", "56" ], [ "China (中国)", "cn", "86" ], [ "Christmas Island", "cx", "61", 2, [ "89164" ] ], [ "Cocos (Keeling) Islands", "cc", "61", 1, [ "89162" ] ], [ "Colombia", "co", "57" ], [ "Comoros (‫جزر القمر‬‎)", "km", "269" ], [ "Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)", "cd", "243" ], [ "Congo (Republic) (Congo-Brazzaville)", "cg", "242" ], [ "Cook Islands", "ck", "682" ], [ "Costa Rica", "cr", "506" ], [ "Côte d’Ivoire", "ci", "225" ], [ "Croatia (Hrvatska)", "hr", "385" ], [ "Cuba", "cu", "53" ], [ "Curaçao", "cw", "599", 0 ], [ "Cyprus (Κύπρος)", "cy", "357" ], [ "Czech Republic (Česká republika)", "cz", "420" ], [ "Denmark (Danmark)", "dk", "45" ], [ "Djibouti", "dj", "253" ], [ "Dominica", "dm", "1", 13, [ "767" ] ], [ "Dominican Republic (República Dominicana)", "do", "1", 2, [ "809", "829", "849" ] ], [ "Ecuador", "ec", "593" ], [ "Egypt (‫مصر‬‎)", "eg", "20" ], [ "El Salvador", "sv", "503" ], [ "Equatorial Guinea (Guinea Ecuatorial)", "gq", "240" ], [ "Eritrea", "er", "291" ], [ "Estonia (Eesti)", "ee", "372" ], [ "Eswatini", "sz", "268" ], [ "Ethiopia", "et", "251" ], [ "Falkland Islands (Islas Malvinas)", "fk", "500" ], [ "Faroe Islands (Føroyar)", "fo", "298" ], [ "Fiji", "fj", "679" ], [ "Finland (Suomi)", "fi", "358", 0 ], [ "France", "fr", "33" ], [ "French Guiana (Guyane française)", "gf", "594" ], [ "French Polynesia (Polynésie française)", "pf", "689" ], [ "Gabon", "ga", "241" ], [ "Gambia", "gm", "220" ], [ "Georgia (საქართველო)", "ge", "995" ], [ "Germany (Deutschland)", "de", "49" ], [ "Ghana (Gaana)", "gh", "233" ], [ "Gibraltar", "gi", "350" ], [ "Greece (Ελλάδα)", "gr", "30" ], [ "Greenland (Kalaallit Nunaat)", "gl", "299" ], [ "Grenada", "gd", "1", 14, [ "473" ] ], [ "Guadeloupe", "gp", "590", 0 ], [ "Guam", "gu", "1", 15, [ "671" ] ], [ "Guatemala", "gt", "502" ], [ "Guernsey", "gg", "44", 1, [ "1481", "7781", "7839", "7911" ] ], [ "Guinea (Guinée)", "gn", "224" ], [ "Guinea-Bissau (Guiné Bissau)", "gw", "245" ], [ "Guyana", "gy", "592" ], [ "Haiti", "ht", "509" ], [ "Honduras", "hn", "504" ], [ "Hong Kong (香港)", "hk", "852" ], [ "Hungary (Magyarország)", "hu", "36" ], [ "Iceland (Ísland)", "is", "354" ], [ "India (भारत)", "in", "91" ], [ "Indonesia", "id", "62" ], [ "Iran (‫ایران‬‎)", "ir", "98" ], [ "Iraq (‫العراق‬‎)", "iq", "964" ], [ "Ireland", "ie", "353" ], [ "Isle of Man", "im", "44", 2, [ "1624", "74576", "7524", "7924", "7624" ] ], [ "Israel (‫ישראל‬‎)", "il", "972" ], [ "Italy (Italia)", "it", "39", 0 ], [ "Jamaica", "jm", "1", 4, [ "876", "658" ] ], [ "Japan (日本)", "jp", "81" ], [ "Jersey", "je", "44", 3, [ "1534", "7509", "7700", "7797", "7829", "7937" ] ], [ "Jordan (‫الأردن‬‎)", "jo", "962" ], [ "Kazakhstan (Казахстан)", "kz", "7", 1, [ "33", "7" ] ], [ "Kenya", "ke", "254" ], [ "Kiribati", "ki", "686" ], [ "Kosovo", "xk", "383" ], [ "Kuwait (‫الكويت‬‎)", "kw", "965" ], [ "Kyrgyzstan (Кыргызстан)", "kg", "996" ], [ "Laos (ລາວ)", "la", "856" ], [ "Latvia (Latvija)", "lv", "371" ], [ "Lebanon (‫لبنان‬‎)", "lb", "961" ], [ "Lesotho", "ls", "266" ], [ "Liberia", "lr", "231" ], [ "Libya (‫ليبيا‬‎)", "ly", "218" ], [ "Liechtenstein", "li", "423" ], [ "Lithuania (Lietuva)", "lt", "370" ], [ "Luxembourg", "lu", "352" ], [ "Macau (澳門)", "mo", "853" ], [ "Madagascar (Madagasikara)", "mg", "261" ], [ "Malawi", "mw", "265" ], [ "Malaysia", "my", "60" ], [ "Maldives", "mv", "960" ], [ "Mali", "ml", "223" ], [ "Malta", "mt", "356" ], [ "Marshall Islands", "mh", "692" ], [ "Martinique", "mq", "596" ], [ "Mauritania (‫موريتانيا‬‎)", "mr", "222" ], [ "Mauritius (Moris)", "mu", "230" ], [ "Mayotte", "yt", "262", 1, [ "269", "639" ] ], [ "Mexico (México)", "mx", "52" ], [ "Micronesia", "fm", "691" ], [ "Moldova (Republica Moldova)", "md", "373" ], [ "Monaco", "mc", "377" ], [ "Mongolia (Монгол)", "mn", "976" ], [ "Montenegro (Crna Gora)", "me", "382" ], [ "Montserrat", "ms", "1", 16, [ "664" ] ], [ "Morocco (‫المغرب‬‎)", "ma", "212", 0 ], [ "Mozambique (Moçambique)", "mz", "258" ], [ "Myanmar (Burma) (မြန်မာ)", "mm", "95" ], [ "Namibia (Namibië)", "na", "264" ], [ "Nauru", "nr", "674" ], [ "Nepal (नेपाल)", "np", "977" ], [ "Netherlands (Nederland)", "nl", "31" ], [ "New Caledonia (Nouvelle-Calédonie)", "nc", "687" ], [ "New Zealand", "nz", "64" ], [ "Nicaragua", "ni", "505" ], [ "Niger (Nijar)", "ne", "227" ], [ "Nigeria", "ng", "234" ], [ "Niue", "nu", "683" ], [ "Norfolk Island", "nf", "672" ], [ "North Korea (조선 민주주의 인민 공화국)", "kp", "850" ], [ "North Macedonia (Северна Македонија)", "mk", "389" ], [ "Northern Mariana Islands", "mp", "1", 17, [ "670" ] ], [ "Norway (Norge)", "no", "47", 0 ], [ "Oman (‫عُمان‬‎)", "om", "968" ], [ "Pakistan (‫پاکستان‬‎)", "pk", "92" ], [ "Palau", "pw", "680" ], [ "Palestine (‫فلسطين‬‎)", "ps", "970" ], [ "Panama (Panamá)", "pa", "507" ], [ "Papua New Guinea", "pg", "675" ], [ "Paraguay", "py", "595" ], [ "Peru (Perú)", "pe", "51" ], [ "Philippines", "ph", "63" ], [ "Poland (Polska)", "pl", "48" ], [ "Portugal", "pt", "351" ], [ "Puerto Rico", "pr", "1", 3, [ "787", "939" ] ], [ "Qatar (‫قطر‬‎)", "qa", "974" ], [ "Réunion (La Réunion)", "re", "262", 0 ], [ "Romania (România)", "ro", "40" ], [ "Russia (Россия)", "ru", "7", 0 ], [ "Rwanda", "rw", "250" ], [ "Saint Barthélemy", "bl", "590", 1 ], [ "Saint Helena", "sh", "290" ], [ "Saint Kitts and Nevis", "kn", "1", 18, [ "869" ] ], [ "Saint Lucia", "lc", "1", 19, [ "758" ] ], [ "Saint Martin (Saint-Martin (partie française))", "mf", "590", 2 ], [ "Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)", "pm", "508" ], [ "Saint Vincent and the Grenadines", "vc", "1", 20, [ "784" ] ], [ "Samoa", "ws", "685" ], [ "San Marino", "sm", "378" ], [ "São Tomé and Príncipe (São Tomé e Príncipe)", "st", "239" ], [ "Saudi Arabia (‫المملكة العربية السعودية‬‎)", "sa", "966" ], [ "Senegal (Sénégal)", "sn", "221" ], [ "Serbia (Србија)", "rs", "381" ], [ "Seychelles", "sc", "248" ], [ "Sierra Leone", "sl", "232" ], [ "Singapore", "sg", "65" ], [ "Sint Maarten", "sx", "1", 21, [ "721" ] ], [ "Slovakia (Slovensko)", "sk", "421" ], [ "Slovenia (Slovenija)", "si", "386" ], [ "Solomon Islands", "sb", "677" ], [ "Somalia (Soomaaliya)", "so", "252" ], [ "South Africa", "za", "27" ], [ "South Korea (대한민국)", "kr", "82" ], [ "South Sudan (‫جنوب السودان‬‎)", "ss", "211" ], [ "Spain (España)", "es", "34" ], [ "Sri Lanka (ශ්‍රී ලංකාව)", "lk", "94" ], [ "Sudan (‫السودان‬‎)", "sd", "249" ], [ "Suriname", "sr", "597" ], [ "Svalbard and Jan Mayen", "sj", "47", 1, [ "79" ] ], [ "Sweden (Sverige)", "se", "46" ], [ "Switzerland (Schweiz)", "ch", "41" ], [ "Syria (‫سوريا‬‎)", "sy", "963" ], [ "Taiwan (台灣)", "tw", "886" ], [ "Tajikistan", "tj", "992" ], [ "Tanzania", "tz", "255" ], [ "Thailand (ไทย)", "th", "66" ], [ "Timor-Leste", "tl", "670" ], [ "Togo", "tg", "228" ], [ "Tokelau", "tk", "690" ], [ "Tonga", "to", "676" ], [ "Trinidad and Tobago", "tt", "1", 22, [ "868" ] ], [ "Tunisia (‫تونس‬‎)", "tn", "216" ], [ "Turkey (Türkiye)", "tr", "90" ], [ "Turkmenistan", "tm", "993" ], [ "Turks and Caicos Islands", "tc", "1", 23, [ "649" ] ], [ "Tuvalu", "tv", "688" ], [ "U.S. Virgin Islands", "vi", "1", 24, [ "340" ] ], [ "Uganda", "ug", "256" ], [ "Ukraine (Україна)", "ua", "380" ], [ "United Arab Emirates (‫الإمارات العربية المتحدة‬‎)", "ae", "971" ], [ "United Kingdom", "gb", "44", 0 ], [ "United States", "us", "1", 0 ], [ "Uruguay", "uy", "598" ], [ "Uzbekistan (Oʻzbekiston)", "uz", "998" ], [ "Vanuatu", "vu", "678" ], [ "Vatican City (Città del Vaticano)", "va", "39", 1, [ "06698" ] ], [ "Venezuela", "ve", "58" ], [ "Vietnam (Việt Nam)", "vn", "84" ], [ "Wallis and Futuna (Wallis-et-Futuna)", "wf", "681" ], [ "Western Sahara (‫الصحراء الغربية‬‎)", "eh", "212", 1, [ "5288", "5289" ] ], [ "Yemen (‫اليمن‬‎)", "ye", "967" ], [ "Zambia", "zm", "260" ], [ "Zimbabwe", "zw", "263" ], [ "Åland Islands", "ax", "358", 1, [ "18" ] ] ];
+                    var allCountries = [ [ "Afghanistan", "af", "93" ], [ "Albania", "al", "355" ], [ "Algeria", "dz", "213" ], [ "American Samoa", "as", "1", 5, [ "684" ] ], [ "Andorra", "ad", "376" ], [ "Angola", "ao", "244" ], [ "Anguilla", "ai", "1", 6, [ "264" ] ], [ "Antigua & Barbuda", "ag", "1", 7, [ "268" ] ], [ "Argentina", "ar", "54" ], [ "Armenia", "am", "374" ], [ "Aruba", "aw", "297" ], [ "Ascension Island", "ac", "247" ], [ "Australia", "au", "61", 0 ], [ "Austria", "at", "43" ], [ "Azerbaijan", "az", "994" ], [ "Bahamas", "bs", "1", 8, [ "242" ] ], [ "Bahrain", "bh", "973" ], [ "Bangladesh", "bd", "880" ], [ "Barbados", "bb", "1", 9, [ "246" ] ], [ "Belarus", "by", "375" ], [ "Belgium", "be", "32" ], [ "Belize", "bz", "501" ], [ "Benin", "bj", "229" ], [ "Bermuda", "bm", "1", 10, [ "441" ] ], [ "Bhutan", "bt", "975" ], [ "Bolivia", "bo", "591" ], [ "Bosnia & Herzegovina", "ba", "387" ], [ "Botswana", "bw", "267" ], [ "Brazil", "br", "55" ], [ "British Indian Ocean Territory", "io", "246" ], [ "British Virgin Islands", "vg", "1", 11, [ "284" ] ], [ "Brunei", "bn", "673" ], [ "Bulgaria", "bg", "359" ], [ "Burkina Faso", "bf", "226" ], [ "Burundi", "bi", "257" ], [ "Cambodia", "kh", "855" ], [ "Cameroon", "cm", "237" ], [ "Canada", "ca", "1", 1, [ "204", "226", "236", "249", "250", "263", "289", "306", "343", "354", "365", "367", "368", "382", "387", "403", "416", "418", "428", "431", "437", "438", "450", "584", "468", "474", "506", "514", "519", "548", "579", "581", "584", "587", "604", "613", "639", "647", "672", "683", "705", "709", "742", "753", "778", "780", "782", "807", "819", "825", "867", "873", "902", "905" ] ], [ "Cape Verde", "cv", "238" ], [ "Caribbean Netherlands", "bq", "599", 1, [ "3", "4", "7" ] ], [ "Cayman Islands", "ky", "1", 12, [ "345" ] ], [ "Central African Republic", "cf", "236" ], [ "Chad", "td", "235" ], [ "Chile", "cl", "56" ], [ "China", "cn", "86" ], [ "Christmas Island", "cx", "61", 2, [ "89164" ] ], [ "Cocos (Keeling) Islands", "cc", "61", 1, [ "89162" ] ], [ "Colombia", "co", "57" ], [ "Comoros", "km", "269" ], [ "Congo - Brazzaville", "cg", "242" ], [ "Congo - Kinshasa", "cd", "243" ], [ "Cook Islands", "ck", "682" ], [ "Costa Rica", "cr", "506" ], [ "Côte d’Ivoire", "ci", "225" ], [ "Croatia", "hr", "385" ], [ "Cuba", "cu", "53" ], [ "Curaçao", "cw", "599", 0 ], [ "Cyprus", "cy", "357" ], [ "Czech Republic", "cz", "420" ], [ "Denmark", "dk", "45" ], [ "Djibouti", "dj", "253" ], [ "Dominica", "dm", "1", 13, [ "767" ] ], [ "Dominican Republic", "do", "1", 2, [ "809", "829", "849" ] ], [ "Ecuador", "ec", "593" ], [ "Egypt", "eg", "20" ], [ "El Salvador", "sv", "503" ], [ "Equatorial Guinea", "gq", "240" ], [ "Eritrea", "er", "291" ], [ "Estonia", "ee", "372" ], [ "Eswatini", "sz", "268" ], [ "Ethiopia", "et", "251" ], [ "Falkland Islands", "fk", "500" ], [ "Faroe Islands", "fo", "298" ], [ "Fiji", "fj", "679" ], [ "Finland", "fi", "358", 0 ], [ "France", "fr", "33" ], [ "French Guiana", "gf", "594" ], [ "French Polynesia", "pf", "689" ], [ "Gabon", "ga", "241" ], [ "Gambia", "gm", "220" ], [ "Georgia", "ge", "995" ], [ "Germany", "de", "49" ], [ "Ghana", "gh", "233" ], [ "Gibraltar", "gi", "350" ], [ "Greece", "gr", "30" ], [ "Greenland", "gl", "299" ], [ "Grenada", "gd", "1", 14, [ "473" ] ], [ "Guadeloupe", "gp", "590", 0 ], [ "Guam", "gu", "1", 15, [ "671" ] ], [ "Guatemala", "gt", "502" ], [ "Guernsey", "gg", "44", 1, [ "1481", "7781", "7839", "7911" ] ], [ "Guinea", "gn", "224" ], [ "Guinea-Bissau", "gw", "245" ], [ "Guyana", "gy", "592" ], [ "Haiti", "ht", "509" ], [ "Honduras", "hn", "504" ], [ "Hong Kong", "hk", "852" ], [ "Hungary", "hu", "36" ], [ "Iceland", "is", "354" ], [ "India", "in", "91" ], [ "Indonesia", "id", "62" ], [ "Iran", "ir", "98" ], [ "Iraq", "iq", "964" ], [ "Ireland", "ie", "353" ], [ "Isle of Man", "im", "44", 2, [ "1624", "74576", "7524", "7924", "7624" ] ], [ "Israel", "il", "972" ], [ "Italy", "it", "39", 0 ], [ "Jamaica", "jm", "1", 4, [ "876", "658" ] ], [ "Japan", "jp", "81" ], [ "Jersey", "je", "44", 3, [ "1534", "7509", "7700", "7797", "7829", "7937" ] ], [ "Jordan", "jo", "962" ], [ "Kazakhstan", "kz", "7", 1, [ "33", "7" ] ], [ "Kenya", "ke", "254" ], [ "Kiribati", "ki", "686" ], [ "Kosovo", "xk", "383" ], [ "Kuwait", "kw", "965" ], [ "Kyrgyzstan", "kg", "996" ], [ "Laos", "la", "856" ], [ "Latvia", "lv", "371" ], [ "Lebanon", "lb", "961" ], [ "Lesotho", "ls", "266" ], [ "Liberia", "lr", "231" ], [ "Libya", "ly", "218" ], [ "Liechtenstein", "li", "423" ], [ "Lithuania", "lt", "370" ], [ "Luxembourg", "lu", "352" ], [ "Macau", "mo", "853" ], [ "Madagascar", "mg", "261" ], [ "Malawi", "mw", "265" ], [ "Malaysia", "my", "60" ], [ "Maldives", "mv", "960" ], [ "Mali", "ml", "223" ], [ "Malta", "mt", "356" ], [ "Marshall Islands", "mh", "692" ], [ "Martinique", "mq", "596" ], [ "Mauritania", "mr", "222" ], [ "Mauritius", "mu", "230" ], [ "Mayotte", "yt", "262", 1, [ "269", "639" ] ], [ "Mexico", "mx", "52" ], [ "Micronesia", "fm", "691" ], [ "Moldova", "md", "373" ], [ "Monaco", "mc", "377" ], [ "Mongolia", "mn", "976" ], [ "Montenegro", "me", "382" ], [ "Montserrat", "ms", "1", 16, [ "664" ] ], [ "Morocco", "ma", "212", 0 ], [ "Mozambique", "mz", "258" ], [ "Myanmar (Burma)", "mm", "95" ], [ "Namibia", "na", "264" ], [ "Nauru", "nr", "674" ], [ "Nepal", "np", "977" ], [ "Netherlands", "nl", "31" ], [ "New Caledonia", "nc", "687" ], [ "New Zealand", "nz", "64" ], [ "Nicaragua", "ni", "505" ], [ "Niger", "ne", "227" ], [ "Nigeria", "ng", "234" ], [ "Niue", "nu", "683" ], [ "Norfolk Island", "nf", "672" ], [ "North Korea", "kp", "850" ], [ "North Macedonia", "mk", "389" ], [ "Northern Mariana Islands", "mp", "1", 17, [ "670" ] ], [ "Norway", "no", "47", 0 ], [ "Oman", "om", "968" ], [ "Pakistan", "pk", "92" ], [ "Palau", "pw", "680" ], [ "Palestine", "ps", "970" ], [ "Panama", "pa", "507" ], [ "Papua New Guinea", "pg", "675" ], [ "Paraguay", "py", "595" ], [ "Peru", "pe", "51" ], [ "Philippines", "ph", "63" ], [ "Poland", "pl", "48" ], [ "Portugal", "pt", "351" ], [ "Puerto Rico", "pr", "1", 3, [ "787", "939" ] ], [ "Qatar", "qa", "974" ], [ "Réunion", "re", "262", 0 ], [ "Romania", "ro", "40" ], [ "Russia", "ru", "7", 0 ], [ "Rwanda", "rw", "250" ], [ "Samoa", "ws", "685" ], [ "San Marino", "sm", "378" ], [ "São Tomé & Príncipe", "st", "239" ], [ "Saudi Arabia", "sa", "966" ], [ "Senegal", "sn", "221" ], [ "Serbia", "rs", "381" ], [ "Seychelles", "sc", "248" ], [ "Sierra Leone", "sl", "232" ], [ "Singapore", "sg", "65" ], [ "Sint Maarten", "sx", "1", 21, [ "721" ] ], [ "Slovakia", "sk", "421" ], [ "Slovenia", "si", "386" ], [ "Solomon Islands", "sb", "677" ], [ "Somalia", "so", "252" ], [ "South Africa", "za", "27" ], [ "South Korea", "kr", "82" ], [ "South Sudan", "ss", "211" ], [ "Spain", "es", "34" ], [ "Sri Lanka", "lk", "94" ], [ "St Barthélemy", "bl", "590", 1 ], [ "St Helena", "sh", "290" ], [ "St Kitts & Nevis", "kn", "1", 18, [ "869" ] ], [ "St Lucia", "lc", "1", 19, [ "758" ] ], [ "St Martin", "mf", "590", 2 ], [ "St Pierre & Miquelon", "pm", "508" ], [ "St Vincent & Grenadines", "vc", "1", 20, [ "784" ] ], [ "Sudan", "sd", "249" ], [ "Suriname", "sr", "597" ], [ "Svalbard & Jan Mayen", "sj", "47", 1, [ "79" ] ], [ "Sweden", "se", "46" ], [ "Switzerland", "ch", "41" ], [ "Syria", "sy", "963" ], [ "Taiwan", "tw", "886" ], [ "Tajikistan", "tj", "992" ], [ "Tanzania", "tz", "255" ], [ "Thailand", "th", "66" ], [ "Timor-Leste", "tl", "670" ], [ "Togo", "tg", "228" ], [ "Tokelau", "tk", "690" ], [ "Tonga", "to", "676" ], [ "Trinidad & Tobago", "tt", "1", 22, [ "868" ] ], [ "Tunisia", "tn", "216" ], [ "Turkey", "tr", "90" ], [ "Turkmenistan", "tm", "993" ], [ "Turks & Caicos Islands", "tc", "1", 23, [ "649" ] ], [ "Tuvalu", "tv", "688" ], [ "Uganda", "ug", "256" ], [ "Ukraine", "ua", "380" ], [ "United Arab Emirates", "ae", "971" ], [ "United Kingdom", "gb", "44", 0 ], [ "United States", "us", "1", 0 ], [ "Uruguay", "uy", "598" ], [ "US Virgin Islands", "vi", "1", 24, [ "340" ] ], [ "Uzbekistan", "uz", "998" ], [ "Vanuatu", "vu", "678" ], [ "Vatican City", "va", "39", 1, [ "06698" ] ], [ "Venezuela", "ve", "58" ], [ "Vietnam", "vn", "84" ], [ "Wallis & Futuna", "wf", "681" ], [ "Western Sahara", "eh", "212", 1, [ "5288", "5289" ] ], [ "Yemen", "ye", "967" ], [ "Zambia", "zm", "260" ], [ "Zimbabwe", "zw", "263" ], [ "Åland Islands", "ax", "358", 1, [ "18" ] ] ];
                     for (var i = 0; i < allCountries.length; i++) {
                         var c = allCountries[i];
                         allCountries[i] = {
@@ -106,7 +106,7 @@
                         preferredCountries: [ "us", "gb" ],
                         separateDialCode: false,
                         showFlags: true,
-                        useFullscreenPopup: /Android.+Mobile|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 500,
+                        useFullscreenPopup: typeof navigator !== "undefined" && typeof window !== "undefined" ? /Android.+Mobile|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 500 : false,
                         utilsScript: ""
                     };
                     var regionlessNanpNumbers = [ "800", "822", "833", "844", "855", "866", "877", "880", "881", "882", "883", "884", "885", "886", "887", "888", "889" ];
@@ -1005,7 +1005,7 @@
                         return null;
                     };
                     intlTelInputGlobals.defaults = defaults;
-                    intlTelInputGlobals.version = "18.3.3";
+                    intlTelInputGlobals.version = "18.3.4";
                     return function(input, options) {
                         var iti = new Iti(input, options);
                         iti._init();
@@ -3103,7 +3103,7 @@
             }
             return parents;
         }
-        function utils_elementOuterSize(el, size, includeMargins) {
+        function elementOuterSize(el, size, includeMargins) {
             const window = ssr_window_esm_getWindow();
             if (includeMargins) return el[size === "width" ? "offsetWidth" : "offsetHeight"] + parseFloat(window.getComputedStyle(el, null).getPropertyValue(size === "width" ? "margin-right" : "margin-top")) + parseFloat(window.getComputedStyle(el, null).getPropertyValue(size === "width" ? "margin-left" : "margin-bottom"));
             return el.offsetWidth;
@@ -3444,7 +3444,7 @@
                     const currentWebKitTransform = slide.style.webkitTransform;
                     if (currentTransform) slide.style.transform = "none";
                     if (currentWebKitTransform) slide.style.webkitTransform = "none";
-                    if (params.roundLengths) slideSize = swiper.isHorizontal() ? utils_elementOuterSize(slide, "width", true) : utils_elementOuterSize(slide, "height", true); else {
+                    if (params.roundLengths) slideSize = swiper.isHorizontal() ? elementOuterSize(slide, "width", true) : elementOuterSize(slide, "height", true); else {
                         const width = getDirectionPropertyValue(slideStyles, "width");
                         const paddingLeft = getDirectionPropertyValue(slideStyles, "padding-left");
                         const paddingRight = getDirectionPropertyValue(slideStyles, "padding-right");
@@ -5744,168 +5744,594 @@
             }));
             return params;
         }
-        function Navigation(_ref) {
+        function classes_to_selector_classesToSelector(classes) {
+            if (classes === void 0) classes = "";
+            return `.${classes.trim().replace(/([\.:!+\/])/g, "\\$1").replace(/ /g, ".")}`;
+        }
+        function Pagination(_ref) {
             let {swiper, extendParams, on, emit} = _ref;
+            const pfx = "swiper-pagination";
             extendParams({
-                navigation: {
-                    nextEl: null,
-                    prevEl: null,
+                pagination: {
+                    el: null,
+                    bulletElement: "span",
+                    clickable: false,
                     hideOnClick: false,
-                    disabledClass: "swiper-button-disabled",
-                    hiddenClass: "swiper-button-hidden",
-                    lockClass: "swiper-button-lock",
-                    navigationDisabledClass: "swiper-navigation-disabled"
+                    renderBullet: null,
+                    renderProgressbar: null,
+                    renderFraction: null,
+                    renderCustom: null,
+                    progressbarOpposite: false,
+                    type: "bullets",
+                    dynamicBullets: false,
+                    dynamicMainBullets: 1,
+                    formatFractionCurrent: number => number,
+                    formatFractionTotal: number => number,
+                    bulletClass: `${pfx}-bullet`,
+                    bulletActiveClass: `${pfx}-bullet-active`,
+                    modifierClass: `${pfx}-`,
+                    currentClass: `${pfx}-current`,
+                    totalClass: `${pfx}-total`,
+                    hiddenClass: `${pfx}-hidden`,
+                    progressbarFillClass: `${pfx}-progressbar-fill`,
+                    progressbarOppositeClass: `${pfx}-progressbar-opposite`,
+                    clickableClass: `${pfx}-clickable`,
+                    lockClass: `${pfx}-lock`,
+                    horizontalClass: `${pfx}-horizontal`,
+                    verticalClass: `${pfx}-vertical`,
+                    paginationDisabledClass: `${pfx}-disabled`
                 }
             });
-            swiper.navigation = {
-                nextEl: null,
-                prevEl: null
+            swiper.pagination = {
+                el: null,
+                bullets: []
             };
+            let bulletSize;
+            let dynamicBulletIndex = 0;
             const makeElementsArray = el => (Array.isArray(el) ? el : [ el ]).filter((e => !!e));
-            function getEl(el) {
-                let res;
-                if (el && typeof el === "string" && swiper.isElement) {
-                    res = swiper.el.querySelector(el);
-                    if (res) return res;
-                }
-                if (el) {
-                    if (typeof el === "string") res = [ ...document.querySelectorAll(el) ];
-                    if (swiper.params.uniqueNavElements && typeof el === "string" && res.length > 1 && swiper.el.querySelectorAll(el).length === 1) res = swiper.el.querySelector(el);
-                }
-                if (el && !res) return el;
-                return res;
+            function isPaginationDisabled() {
+                return !swiper.params.pagination.el || !swiper.pagination.el || Array.isArray(swiper.pagination.el) && swiper.pagination.el.length === 0;
             }
-            function toggleEl(el, disabled) {
-                const params = swiper.params.navigation;
-                el = makeElementsArray(el);
-                el.forEach((subEl => {
-                    if (subEl) {
-                        subEl.classList[disabled ? "add" : "remove"](...params.disabledClass.split(" "));
-                        if (subEl.tagName === "BUTTON") subEl.disabled = disabled;
-                        if (swiper.params.watchOverflow && swiper.enabled) subEl.classList[swiper.isLocked ? "add" : "remove"](params.lockClass);
-                    }
-                }));
+            function setSideBullets(bulletEl, position) {
+                const {bulletActiveClass} = swiper.params.pagination;
+                if (!bulletEl) return;
+                bulletEl = bulletEl[`${position === "prev" ? "previous" : "next"}ElementSibling`];
+                if (bulletEl) {
+                    bulletEl.classList.add(`${bulletActiveClass}-${position}`);
+                    bulletEl = bulletEl[`${position === "prev" ? "previous" : "next"}ElementSibling`];
+                    if (bulletEl) bulletEl.classList.add(`${bulletActiveClass}-${position}-${position}`);
+                }
+            }
+            function onBulletClick(e) {
+                const bulletEl = e.target.closest(classes_to_selector_classesToSelector(swiper.params.pagination.bulletClass));
+                if (!bulletEl) return;
+                e.preventDefault();
+                const index = utils_elementIndex(bulletEl) * swiper.params.slidesPerGroup;
+                if (swiper.params.loop) {
+                    if (swiper.realIndex === index) return;
+                    swiper.slideToLoop(index);
+                } else swiper.slideTo(index);
             }
             function update() {
-                const {nextEl, prevEl} = swiper.navigation;
+                const rtl = swiper.rtl;
+                const params = swiper.params.pagination;
+                if (isPaginationDisabled()) return;
+                let el = swiper.pagination.el;
+                el = makeElementsArray(el);
+                let current;
+                let previousIndex;
+                const slidesLength = swiper.virtual && swiper.params.virtual.enabled ? swiper.virtual.slides.length : swiper.slides.length;
+                const total = swiper.params.loop ? Math.ceil(slidesLength / swiper.params.slidesPerGroup) : swiper.snapGrid.length;
                 if (swiper.params.loop) {
-                    toggleEl(prevEl, false);
-                    toggleEl(nextEl, false);
-                    return;
+                    previousIndex = swiper.previousRealIndex || 0;
+                    current = swiper.params.slidesPerGroup > 1 ? Math.floor(swiper.realIndex / swiper.params.slidesPerGroup) : swiper.realIndex;
+                } else if (typeof swiper.snapIndex !== "undefined") {
+                    current = swiper.snapIndex;
+                    previousIndex = swiper.previousSnapIndex;
+                } else {
+                    previousIndex = swiper.previousIndex || 0;
+                    current = swiper.activeIndex || 0;
                 }
-                toggleEl(prevEl, swiper.isBeginning && !swiper.params.rewind);
-                toggleEl(nextEl, swiper.isEnd && !swiper.params.rewind);
+                if (params.type === "bullets" && swiper.pagination.bullets && swiper.pagination.bullets.length > 0) {
+                    const bullets = swiper.pagination.bullets;
+                    let firstIndex;
+                    let lastIndex;
+                    let midIndex;
+                    if (params.dynamicBullets) {
+                        bulletSize = elementOuterSize(bullets[0], swiper.isHorizontal() ? "width" : "height", true);
+                        el.forEach((subEl => {
+                            subEl.style[swiper.isHorizontal() ? "width" : "height"] = `${bulletSize * (params.dynamicMainBullets + 4)}px`;
+                        }));
+                        if (params.dynamicMainBullets > 1 && previousIndex !== void 0) {
+                            dynamicBulletIndex += current - (previousIndex || 0);
+                            if (dynamicBulletIndex > params.dynamicMainBullets - 1) dynamicBulletIndex = params.dynamicMainBullets - 1; else if (dynamicBulletIndex < 0) dynamicBulletIndex = 0;
+                        }
+                        firstIndex = Math.max(current - dynamicBulletIndex, 0);
+                        lastIndex = firstIndex + (Math.min(bullets.length, params.dynamicMainBullets) - 1);
+                        midIndex = (lastIndex + firstIndex) / 2;
+                    }
+                    bullets.forEach((bulletEl => {
+                        const classesToRemove = [ ...[ "", "-next", "-next-next", "-prev", "-prev-prev", "-main" ].map((suffix => `${params.bulletActiveClass}${suffix}`)) ].map((s => typeof s === "string" && s.includes(" ") ? s.split(" ") : s)).flat();
+                        bulletEl.classList.remove(...classesToRemove);
+                    }));
+                    if (el.length > 1) bullets.forEach((bullet => {
+                        const bulletIndex = utils_elementIndex(bullet);
+                        if (bulletIndex === current) bullet.classList.add(...params.bulletActiveClass.split(" ")); else if (swiper.isElement) bullet.setAttribute("part", "bullet");
+                        if (params.dynamicBullets) {
+                            if (bulletIndex >= firstIndex && bulletIndex <= lastIndex) bullet.classList.add(...`${params.bulletActiveClass}-main`.split(" "));
+                            if (bulletIndex === firstIndex) setSideBullets(bullet, "prev");
+                            if (bulletIndex === lastIndex) setSideBullets(bullet, "next");
+                        }
+                    })); else {
+                        const bullet = bullets[current];
+                        if (bullet) bullet.classList.add(...params.bulletActiveClass.split(" "));
+                        if (swiper.isElement) bullets.forEach(((bulletEl, bulletIndex) => {
+                            bulletEl.setAttribute("part", bulletIndex === current ? "bullet-active" : "bullet");
+                        }));
+                        if (params.dynamicBullets) {
+                            const firstDisplayedBullet = bullets[firstIndex];
+                            const lastDisplayedBullet = bullets[lastIndex];
+                            for (let i = firstIndex; i <= lastIndex; i += 1) if (bullets[i]) bullets[i].classList.add(...`${params.bulletActiveClass}-main`.split(" "));
+                            setSideBullets(firstDisplayedBullet, "prev");
+                            setSideBullets(lastDisplayedBullet, "next");
+                        }
+                    }
+                    if (params.dynamicBullets) {
+                        const dynamicBulletsLength = Math.min(bullets.length, params.dynamicMainBullets + 4);
+                        const bulletsOffset = (bulletSize * dynamicBulletsLength - bulletSize) / 2 - midIndex * bulletSize;
+                        const offsetProp = rtl ? "right" : "left";
+                        bullets.forEach((bullet => {
+                            bullet.style[swiper.isHorizontal() ? offsetProp : "top"] = `${bulletsOffset}px`;
+                        }));
+                    }
+                }
+                el.forEach(((subEl, subElIndex) => {
+                    if (params.type === "fraction") {
+                        subEl.querySelectorAll(classes_to_selector_classesToSelector(params.currentClass)).forEach((fractionEl => {
+                            fractionEl.textContent = params.formatFractionCurrent(current + 1);
+                        }));
+                        subEl.querySelectorAll(classes_to_selector_classesToSelector(params.totalClass)).forEach((totalEl => {
+                            totalEl.textContent = params.formatFractionTotal(total);
+                        }));
+                    }
+                    if (params.type === "progressbar") {
+                        let progressbarDirection;
+                        if (params.progressbarOpposite) progressbarDirection = swiper.isHorizontal() ? "vertical" : "horizontal"; else progressbarDirection = swiper.isHorizontal() ? "horizontal" : "vertical";
+                        const scale = (current + 1) / total;
+                        let scaleX = 1;
+                        let scaleY = 1;
+                        if (progressbarDirection === "horizontal") scaleX = scale; else scaleY = scale;
+                        subEl.querySelectorAll(classes_to_selector_classesToSelector(params.progressbarFillClass)).forEach((progressEl => {
+                            progressEl.style.transform = `translate3d(0,0,0) scaleX(${scaleX}) scaleY(${scaleY})`;
+                            progressEl.style.transitionDuration = `${swiper.params.speed}ms`;
+                        }));
+                    }
+                    if (params.type === "custom" && params.renderCustom) {
+                        subEl.innerHTML = params.renderCustom(swiper, current + 1, total);
+                        if (subElIndex === 0) emit("paginationRender", subEl);
+                    } else {
+                        if (subElIndex === 0) emit("paginationRender", subEl);
+                        emit("paginationUpdate", subEl);
+                    }
+                    if (swiper.params.watchOverflow && swiper.enabled) subEl.classList[swiper.isLocked ? "add" : "remove"](params.lockClass);
+                }));
             }
-            function onPrevClick(e) {
-                e.preventDefault();
-                if (swiper.isBeginning && !swiper.params.loop && !swiper.params.rewind) return;
-                swiper.slidePrev();
-                emit("navigationPrev");
-            }
-            function onNextClick(e) {
-                e.preventDefault();
-                if (swiper.isEnd && !swiper.params.loop && !swiper.params.rewind) return;
-                swiper.slideNext();
-                emit("navigationNext");
+            function render() {
+                const params = swiper.params.pagination;
+                if (isPaginationDisabled()) return;
+                const slidesLength = swiper.virtual && swiper.params.virtual.enabled ? swiper.virtual.slides.length : swiper.grid && swiper.params.grid.rows > 1 ? swiper.slides.length / Math.ceil(swiper.params.grid.rows) : swiper.slides.length;
+                let el = swiper.pagination.el;
+                el = makeElementsArray(el);
+                let paginationHTML = "";
+                if (params.type === "bullets") {
+                    let numberOfBullets = swiper.params.loop ? Math.ceil(slidesLength / swiper.params.slidesPerGroup) : swiper.snapGrid.length;
+                    if (swiper.params.freeMode && swiper.params.freeMode.enabled && numberOfBullets > slidesLength) numberOfBullets = slidesLength;
+                    for (let i = 0; i < numberOfBullets; i += 1) if (params.renderBullet) paginationHTML += params.renderBullet.call(swiper, i, params.bulletClass); else paginationHTML += `<${params.bulletElement} ${swiper.isElement ? 'part="bullet"' : ""} class="${params.bulletClass}"></${params.bulletElement}>`;
+                }
+                if (params.type === "fraction") if (params.renderFraction) paginationHTML = params.renderFraction.call(swiper, params.currentClass, params.totalClass); else paginationHTML = `<span class="${params.currentClass}"></span>` + " / " + `<span class="${params.totalClass}"></span>`;
+                if (params.type === "progressbar") if (params.renderProgressbar) paginationHTML = params.renderProgressbar.call(swiper, params.progressbarFillClass); else paginationHTML = `<span class="${params.progressbarFillClass}"></span>`;
+                swiper.pagination.bullets = [];
+                el.forEach((subEl => {
+                    if (params.type !== "custom") subEl.innerHTML = paginationHTML || "";
+                    if (params.type === "bullets") swiper.pagination.bullets.push(...subEl.querySelectorAll(classes_to_selector_classesToSelector(params.bulletClass)));
+                }));
+                if (params.type !== "custom") emit("paginationRender", el[0]);
             }
             function init() {
-                const params = swiper.params.navigation;
-                swiper.params.navigation = create_element_if_not_defined_createElementIfNotDefined(swiper, swiper.originalParams.navigation, swiper.params.navigation, {
-                    nextEl: "swiper-button-next",
-                    prevEl: "swiper-button-prev"
+                swiper.params.pagination = create_element_if_not_defined_createElementIfNotDefined(swiper, swiper.originalParams.pagination, swiper.params.pagination, {
+                    el: "swiper-pagination"
                 });
-                if (!(params.nextEl || params.prevEl)) return;
-                let nextEl = getEl(params.nextEl);
-                let prevEl = getEl(params.prevEl);
-                Object.assign(swiper.navigation, {
-                    nextEl,
-                    prevEl
+                const params = swiper.params.pagination;
+                if (!params.el) return;
+                let el;
+                if (typeof params.el === "string" && swiper.isElement) el = swiper.el.querySelector(params.el);
+                if (!el && typeof params.el === "string") el = [ ...document.querySelectorAll(params.el) ];
+                if (!el) el = params.el;
+                if (!el || el.length === 0) return;
+                if (swiper.params.uniqueNavElements && typeof params.el === "string" && Array.isArray(el) && el.length > 1) {
+                    el = [ ...swiper.el.querySelectorAll(params.el) ];
+                    if (el.length > 1) el = el.filter((subEl => {
+                        if (utils_elementParents(subEl, ".swiper")[0] !== swiper.el) return false;
+                        return true;
+                    }))[0];
+                }
+                if (Array.isArray(el) && el.length === 1) el = el[0];
+                Object.assign(swiper.pagination, {
+                    el
                 });
-                nextEl = makeElementsArray(nextEl);
-                prevEl = makeElementsArray(prevEl);
-                const initButton = (el, dir) => {
-                    if (el) el.addEventListener("click", dir === "next" ? onNextClick : onPrevClick);
-                    if (!swiper.enabled && el) el.classList.add(...params.lockClass.split(" "));
-                };
-                nextEl.forEach((el => initButton(el, "next")));
-                prevEl.forEach((el => initButton(el, "prev")));
+                el = makeElementsArray(el);
+                el.forEach((subEl => {
+                    if (params.type === "bullets" && params.clickable) subEl.classList.add(...(params.clickableClass || "").split(" "));
+                    subEl.classList.add(params.modifierClass + params.type);
+                    subEl.classList.add(swiper.isHorizontal() ? params.horizontalClass : params.verticalClass);
+                    if (params.type === "bullets" && params.dynamicBullets) {
+                        subEl.classList.add(`${params.modifierClass}${params.type}-dynamic`);
+                        dynamicBulletIndex = 0;
+                        if (params.dynamicMainBullets < 1) params.dynamicMainBullets = 1;
+                    }
+                    if (params.type === "progressbar" && params.progressbarOpposite) subEl.classList.add(params.progressbarOppositeClass);
+                    if (params.clickable) subEl.addEventListener("click", onBulletClick);
+                    if (!swiper.enabled) subEl.classList.add(params.lockClass);
+                }));
             }
             function destroy() {
-                let {nextEl, prevEl} = swiper.navigation;
-                nextEl = makeElementsArray(nextEl);
-                prevEl = makeElementsArray(prevEl);
-                const destroyButton = (el, dir) => {
-                    el.removeEventListener("click", dir === "next" ? onNextClick : onPrevClick);
-                    el.classList.remove(...swiper.params.navigation.disabledClass.split(" "));
-                };
-                nextEl.forEach((el => destroyButton(el, "next")));
-                prevEl.forEach((el => destroyButton(el, "prev")));
+                const params = swiper.params.pagination;
+                if (isPaginationDisabled()) return;
+                let el = swiper.pagination.el;
+                if (el) {
+                    el = makeElementsArray(el);
+                    el.forEach((subEl => {
+                        subEl.classList.remove(params.hiddenClass);
+                        subEl.classList.remove(params.modifierClass + params.type);
+                        subEl.classList.remove(swiper.isHorizontal() ? params.horizontalClass : params.verticalClass);
+                        if (params.clickable) {
+                            subEl.classList.remove(...(params.clickableClass || "").split(" "));
+                            subEl.removeEventListener("click", onBulletClick);
+                        }
+                    }));
+                }
+                if (swiper.pagination.bullets) swiper.pagination.bullets.forEach((subEl => subEl.classList.remove(...params.bulletActiveClass.split(" "))));
             }
+            on("changeDirection", (() => {
+                if (!swiper.pagination || !swiper.pagination.el) return;
+                const params = swiper.params.pagination;
+                let {el} = swiper.pagination;
+                el = makeElementsArray(el);
+                el.forEach((subEl => {
+                    subEl.classList.remove(params.horizontalClass, params.verticalClass);
+                    subEl.classList.add(swiper.isHorizontal() ? params.horizontalClass : params.verticalClass);
+                }));
+            }));
             on("init", (() => {
-                if (swiper.params.navigation.enabled === false) disable(); else {
+                if (swiper.params.pagination.enabled === false) disable(); else {
                     init();
+                    render();
                     update();
                 }
             }));
-            on("toEdge fromEdge lock unlock", (() => {
+            on("activeIndexChange", (() => {
+                if (typeof swiper.snapIndex === "undefined") update();
+            }));
+            on("snapIndexChange", (() => {
+                update();
+            }));
+            on("snapGridLengthChange", (() => {
+                render();
                 update();
             }));
             on("destroy", (() => {
                 destroy();
             }));
             on("enable disable", (() => {
-                let {nextEl, prevEl} = swiper.navigation;
-                nextEl = makeElementsArray(nextEl);
-                prevEl = makeElementsArray(prevEl);
-                if (swiper.enabled) {
-                    update();
-                    return;
+                let {el} = swiper.pagination;
+                if (el) {
+                    el = makeElementsArray(el);
+                    el.forEach((subEl => subEl.classList[swiper.enabled ? "remove" : "add"](swiper.params.pagination.lockClass)));
                 }
-                [ ...nextEl, ...prevEl ].filter((el => !!el)).forEach((el => el.classList.add(swiper.params.navigation.lockClass)));
+            }));
+            on("lock unlock", (() => {
+                update();
             }));
             on("click", ((_s, e) => {
-                let {nextEl, prevEl} = swiper.navigation;
-                nextEl = makeElementsArray(nextEl);
-                prevEl = makeElementsArray(prevEl);
                 const targetEl = e.target;
-                if (swiper.params.navigation.hideOnClick && !prevEl.includes(targetEl) && !nextEl.includes(targetEl)) {
-                    if (swiper.pagination && swiper.params.pagination && swiper.params.pagination.clickable && (swiper.pagination.el === targetEl || swiper.pagination.el.contains(targetEl))) return;
-                    let isHidden;
-                    if (nextEl.length) isHidden = nextEl[0].classList.contains(swiper.params.navigation.hiddenClass); else if (prevEl.length) isHidden = prevEl[0].classList.contains(swiper.params.navigation.hiddenClass);
-                    if (isHidden === true) emit("navigationShow"); else emit("navigationHide");
-                    [ ...nextEl, ...prevEl ].filter((el => !!el)).forEach((el => el.classList.toggle(swiper.params.navigation.hiddenClass)));
+                const el = makeElementsArray(swiper.pagination.el);
+                if (swiper.params.pagination.el && swiper.params.pagination.hideOnClick && el && el.length > 0 && !targetEl.classList.contains(swiper.params.pagination.bulletClass)) {
+                    if (swiper.navigation && (swiper.navigation.nextEl && targetEl === swiper.navigation.nextEl || swiper.navigation.prevEl && targetEl === swiper.navigation.prevEl)) return;
+                    const isHidden = el[0].classList.contains(swiper.params.pagination.hiddenClass);
+                    if (isHidden === true) emit("paginationShow"); else emit("paginationHide");
+                    el.forEach((subEl => subEl.classList.toggle(swiper.params.pagination.hiddenClass)));
                 }
             }));
             const enable = () => {
-                swiper.el.classList.remove(...swiper.params.navigation.navigationDisabledClass.split(" "));
+                swiper.el.classList.remove(swiper.params.pagination.paginationDisabledClass);
+                let {el} = swiper.pagination;
+                if (el) {
+                    el = makeElementsArray(el);
+                    el.forEach((subEl => subEl.classList.remove(swiper.params.pagination.paginationDisabledClass)));
+                }
                 init();
+                render();
                 update();
             };
             const disable = () => {
-                swiper.el.classList.add(...swiper.params.navigation.navigationDisabledClass.split(" "));
+                swiper.el.classList.add(swiper.params.pagination.paginationDisabledClass);
+                let {el} = swiper.pagination;
+                if (el) {
+                    el = makeElementsArray(el);
+                    el.forEach((subEl => subEl.classList.add(swiper.params.pagination.paginationDisabledClass)));
+                }
                 destroy();
             };
-            Object.assign(swiper.navigation, {
+            Object.assign(swiper.pagination, {
                 enable,
                 disable,
+                render,
                 update,
                 init,
                 destroy
             });
         }
+        function Autoplay(_ref) {
+            let {swiper, extendParams, on, emit, params} = _ref;
+            swiper.autoplay = {
+                running: false,
+                paused: false,
+                timeLeft: 0
+            };
+            extendParams({
+                autoplay: {
+                    enabled: false,
+                    delay: 3e3,
+                    waitForTransition: true,
+                    disableOnInteraction: false,
+                    stopOnLastSlide: false,
+                    reverseDirection: false,
+                    pauseOnMouseEnter: false
+                }
+            });
+            let timeout;
+            let raf;
+            let autoplayDelayTotal = params && params.autoplay ? params.autoplay.delay : 3e3;
+            let autoplayDelayCurrent = params && params.autoplay ? params.autoplay.delay : 3e3;
+            let autoplayTimeLeft;
+            let autoplayStartTime = (new Date).getTime();
+            let wasPaused;
+            let isTouched;
+            let pausedByTouch;
+            let touchStartTimeout;
+            let slideChanged;
+            let pausedByInteraction;
+            let pausedByPointerEnter;
+            function onTransitionEnd(e) {
+                if (!swiper || swiper.destroyed || !swiper.wrapperEl) return;
+                if (e.target !== swiper.wrapperEl) return;
+                swiper.wrapperEl.removeEventListener("transitionend", onTransitionEnd);
+                if (pausedByPointerEnter) return;
+                resume();
+            }
+            const calcTimeLeft = () => {
+                if (swiper.destroyed || !swiper.autoplay.running) return;
+                if (swiper.autoplay.paused) wasPaused = true; else if (wasPaused) {
+                    autoplayDelayCurrent = autoplayTimeLeft;
+                    wasPaused = false;
+                }
+                const timeLeft = swiper.autoplay.paused ? autoplayTimeLeft : autoplayStartTime + autoplayDelayCurrent - (new Date).getTime();
+                swiper.autoplay.timeLeft = timeLeft;
+                emit("autoplayTimeLeft", timeLeft, timeLeft / autoplayDelayTotal);
+                raf = requestAnimationFrame((() => {
+                    calcTimeLeft();
+                }));
+            };
+            const getSlideDelay = () => {
+                let activeSlideEl;
+                if (swiper.virtual && swiper.params.virtual.enabled) activeSlideEl = swiper.slides.filter((slideEl => slideEl.classList.contains("swiper-slide-active")))[0]; else activeSlideEl = swiper.slides[swiper.activeIndex];
+                if (!activeSlideEl) return;
+                const currentSlideDelay = parseInt(activeSlideEl.getAttribute("data-swiper-autoplay"), 10);
+                return currentSlideDelay;
+            };
+            const run = delayForce => {
+                if (swiper.destroyed || !swiper.autoplay.running) return;
+                cancelAnimationFrame(raf);
+                calcTimeLeft();
+                let delay = typeof delayForce === "undefined" ? swiper.params.autoplay.delay : delayForce;
+                autoplayDelayTotal = swiper.params.autoplay.delay;
+                autoplayDelayCurrent = swiper.params.autoplay.delay;
+                const currentSlideDelay = getSlideDelay();
+                if (!Number.isNaN(currentSlideDelay) && currentSlideDelay > 0 && typeof delayForce === "undefined") {
+                    delay = currentSlideDelay;
+                    autoplayDelayTotal = currentSlideDelay;
+                    autoplayDelayCurrent = currentSlideDelay;
+                }
+                autoplayTimeLeft = delay;
+                const speed = swiper.params.speed;
+                const proceed = () => {
+                    if (!swiper || swiper.destroyed) return;
+                    if (swiper.params.autoplay.reverseDirection) {
+                        if (!swiper.isBeginning || swiper.params.loop || swiper.params.rewind) {
+                            swiper.slidePrev(speed, true, true);
+                            emit("autoplay");
+                        } else if (!swiper.params.autoplay.stopOnLastSlide) {
+                            swiper.slideTo(swiper.slides.length - 1, speed, true, true);
+                            emit("autoplay");
+                        }
+                    } else if (!swiper.isEnd || swiper.params.loop || swiper.params.rewind) {
+                        swiper.slideNext(speed, true, true);
+                        emit("autoplay");
+                    } else if (!swiper.params.autoplay.stopOnLastSlide) {
+                        swiper.slideTo(0, speed, true, true);
+                        emit("autoplay");
+                    }
+                    if (swiper.params.cssMode) {
+                        autoplayStartTime = (new Date).getTime();
+                        requestAnimationFrame((() => {
+                            run();
+                        }));
+                    }
+                };
+                if (delay > 0) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout((() => {
+                        proceed();
+                    }), delay);
+                } else requestAnimationFrame((() => {
+                    proceed();
+                }));
+                return delay;
+            };
+            const start = () => {
+                autoplayStartTime = (new Date).getTime();
+                swiper.autoplay.running = true;
+                run();
+                emit("autoplayStart");
+            };
+            const stop = () => {
+                swiper.autoplay.running = false;
+                clearTimeout(timeout);
+                cancelAnimationFrame(raf);
+                emit("autoplayStop");
+            };
+            const pause = (internal, reset) => {
+                if (swiper.destroyed || !swiper.autoplay.running) return;
+                clearTimeout(timeout);
+                if (!internal) pausedByInteraction = true;
+                const proceed = () => {
+                    emit("autoplayPause");
+                    if (swiper.params.autoplay.waitForTransition) swiper.wrapperEl.addEventListener("transitionend", onTransitionEnd); else resume();
+                };
+                swiper.autoplay.paused = true;
+                if (reset) {
+                    if (slideChanged) autoplayTimeLeft = swiper.params.autoplay.delay;
+                    slideChanged = false;
+                    proceed();
+                    return;
+                }
+                const delay = autoplayTimeLeft || swiper.params.autoplay.delay;
+                autoplayTimeLeft = delay - ((new Date).getTime() - autoplayStartTime);
+                if (swiper.isEnd && autoplayTimeLeft < 0 && !swiper.params.loop) return;
+                if (autoplayTimeLeft < 0) autoplayTimeLeft = 0;
+                proceed();
+            };
+            const resume = () => {
+                if (swiper.isEnd && autoplayTimeLeft < 0 && !swiper.params.loop || swiper.destroyed || !swiper.autoplay.running) return;
+                autoplayStartTime = (new Date).getTime();
+                if (pausedByInteraction) {
+                    pausedByInteraction = false;
+                    run(autoplayTimeLeft);
+                } else run();
+                swiper.autoplay.paused = false;
+                emit("autoplayResume");
+            };
+            const onVisibilityChange = () => {
+                if (swiper.destroyed || !swiper.autoplay.running) return;
+                const document = ssr_window_esm_getDocument();
+                if (document.visibilityState === "hidden") {
+                    pausedByInteraction = true;
+                    pause(true);
+                }
+                if (document.visibilityState === "visible") resume();
+            };
+            const onPointerEnter = e => {
+                if (e.pointerType !== "mouse") return;
+                pausedByInteraction = true;
+                pausedByPointerEnter = true;
+                if (swiper.animating || swiper.autoplay.paused) return;
+                pause(true);
+            };
+            const onPointerLeave = e => {
+                if (e.pointerType !== "mouse") return;
+                pausedByPointerEnter = false;
+                if (swiper.autoplay.paused) resume();
+            };
+            const attachMouseEvents = () => {
+                if (swiper.params.autoplay.pauseOnMouseEnter) {
+                    swiper.el.addEventListener("pointerenter", onPointerEnter);
+                    swiper.el.addEventListener("pointerleave", onPointerLeave);
+                }
+            };
+            const detachMouseEvents = () => {
+                swiper.el.removeEventListener("pointerenter", onPointerEnter);
+                swiper.el.removeEventListener("pointerleave", onPointerLeave);
+            };
+            const attachDocumentEvents = () => {
+                const document = ssr_window_esm_getDocument();
+                document.addEventListener("visibilitychange", onVisibilityChange);
+            };
+            const detachDocumentEvents = () => {
+                const document = ssr_window_esm_getDocument();
+                document.removeEventListener("visibilitychange", onVisibilityChange);
+            };
+            on("init", (() => {
+                if (swiper.params.autoplay.enabled) {
+                    attachMouseEvents();
+                    attachDocumentEvents();
+                    start();
+                }
+            }));
+            on("destroy", (() => {
+                detachMouseEvents();
+                detachDocumentEvents();
+                if (swiper.autoplay.running) stop();
+            }));
+            on("_freeModeStaticRelease", (() => {
+                if (pausedByTouch || pausedByInteraction) resume();
+            }));
+            on("_freeModeNoMomentumRelease", (() => {
+                if (!swiper.params.autoplay.disableOnInteraction) pause(true, true); else stop();
+            }));
+            on("beforeTransitionStart", ((_s, speed, internal) => {
+                if (swiper.destroyed || !swiper.autoplay.running) return;
+                if (internal || !swiper.params.autoplay.disableOnInteraction) pause(true, true); else stop();
+            }));
+            on("sliderFirstMove", (() => {
+                if (swiper.destroyed || !swiper.autoplay.running) return;
+                if (swiper.params.autoplay.disableOnInteraction) {
+                    stop();
+                    return;
+                }
+                isTouched = true;
+                pausedByTouch = false;
+                pausedByInteraction = false;
+                touchStartTimeout = setTimeout((() => {
+                    pausedByInteraction = true;
+                    pausedByTouch = true;
+                    pause(true);
+                }), 200);
+            }));
+            on("touchEnd", (() => {
+                if (swiper.destroyed || !swiper.autoplay.running || !isTouched) return;
+                clearTimeout(touchStartTimeout);
+                clearTimeout(timeout);
+                if (swiper.params.autoplay.disableOnInteraction) {
+                    pausedByTouch = false;
+                    isTouched = false;
+                    return;
+                }
+                if (pausedByTouch && swiper.params.cssMode) resume();
+                pausedByTouch = false;
+                isTouched = false;
+            }));
+            on("slideChange", (() => {
+                if (swiper.destroyed || !swiper.autoplay.running) return;
+                slideChanged = true;
+            }));
+            Object.assign(swiper.autoplay, {
+                start,
+                stop,
+                pause,
+                resume
+            });
+        }
         function initSliders() {
-            let sliders = document.querySelectorAll(".swiper");
-            sliders.forEach((function(slider) {
-                new swiper_core_Swiper(slider, {
-                    modules: [ Navigation ],
+            if (document.querySelector(".our-fleet")) {
+                new swiper_core_Swiper(".premium-slider", {
+                    modules: [ Pagination ],
                     observer: true,
                     observeParents: true,
-                    slidesPerView: 1,
-                    spaceBetween: 0,
                     speed: 800,
-                    navigation: {
-                        prevEl: slider.querySelector(".swiper-button-prev"),
-                        nextEl: slider.querySelector(".swiper-button-next")
+                    touchRatio: 1,
+                    pagination: {
+                        el: ".premium-slider__swiper-pagination",
+                        clickable: true
                     },
                     breakpoints: {
                         360: {
@@ -5916,36 +6342,197 @@
                             slidesPerView: 2.1,
                             spaceBetween: 20
                         },
+                        768: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
                         992: {
+                            slidesPerView: 3,
+                            spaceBetween: 30
+                        },
+                        1268: {
                             slidesPerView: 3,
                             spaceBetween: 40
                         }
                     },
-                    on: {
-                        init: function() {
-                            toggleArrows(this);
-                        },
-                        slideChange: function() {
-                            toggleArrows(this);
-                        },
-                        resize: function() {
-                            toggleArrows(this);
-                        }
-                    }
+                    on: {}
                 });
-                function toggleArrows(swiper) {
-                    let slides = swiper.slides.length;
-                    let prevArrow = swiper.el.querySelector(".swiper-button-prev");
-                    let nextArrow = swiper.el.querySelector(".swiper-button-next");
-                    if (slides >= 4) {
-                        prevArrow.style.display = "block";
-                        nextArrow.style.display = "block";
-                    } else {
-                        prevArrow.style.display = "none";
-                        nextArrow.style.display = "none";
+                new swiper_core_Swiper(".business-slider", {
+                    modules: [ Pagination ],
+                    observer: true,
+                    observeParents: true,
+                    speed: 800,
+                    touchRatio: 1,
+                    pagination: {
+                        el: ".business-slider__swiper-pagination",
+                        clickable: true
+                    },
+                    breakpoints: {
+                        360: {
+                            slidesPerView: 1.1,
+                            spaceBetween: 20
+                        },
+                        665: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
+                        768: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
+                        992: {
+                            slidesPerView: 3,
+                            spaceBetween: 30
+                        },
+                        1268: {
+                            slidesPerView: 3,
+                            spaceBetween: 40
+                        }
+                    },
+                    on: {}
+                });
+                new swiper_core_Swiper(".suvs-slider", {
+                    modules: [ Pagination ],
+                    observer: true,
+                    observeParents: true,
+                    speed: 800,
+                    touchRatio: 1,
+                    pagination: {
+                        el: ".suvs-slider__swiper-pagination",
+                        clickable: true
+                    },
+                    breakpoints: {
+                        360: {
+                            slidesPerView: 1.1,
+                            spaceBetween: 20
+                        },
+                        665: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
+                        768: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
+                        992: {
+                            slidesPerView: 3,
+                            spaceBetween: 30
+                        },
+                        1268: {
+                            slidesPerView: 3,
+                            spaceBetween: 40
+                        }
+                    },
+                    on: {}
+                });
+                new swiper_core_Swiper(".vans-slider", {
+                    modules: [ Pagination ],
+                    observer: true,
+                    observeParents: true,
+                    speed: 800,
+                    touchRatio: 1,
+                    pagination: {
+                        el: ".vans-slider__swiper-pagination",
+                        clickable: true
+                    },
+                    breakpoints: {
+                        360: {
+                            slidesPerView: 1.1,
+                            spaceBetween: 20
+                        },
+                        665: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
+                        768: {
+                            slidesPerView: 2.1,
+                            spaceBetween: 20
+                        },
+                        992: {
+                            slidesPerView: 3,
+                            spaceBetween: 30
+                        },
+                        1268: {
+                            slidesPerView: 3,
+                            spaceBetween: 40
+                        }
+                    },
+                    on: {}
+                });
+            }
+            if (document.querySelector(".testimonials")) new swiper_core_Swiper(".testimonials__slider", {
+                modules: [ Pagination, Autoplay ],
+                observer: true,
+                observeParents: true,
+                speed: 800,
+                touchRatio: 1,
+                loop: true,
+                autoplay: {
+                    delay: 3e3,
+                    disableOnInteraction: false
+                },
+                pagination: {
+                    el: ".testimonials__swiper-pagination",
+                    clickable: true
+                },
+                breakpoints: {
+                    360: {
+                        slidesPerView: 1.1,
+                        spaceBetween: 20
+                    },
+                    665: {
+                        slidesPerView: 2.1,
+                        spaceBetween: 20
+                    },
+                    768: {
+                        slidesPerView: 2.1,
+                        spaceBetween: 20
+                    },
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 30
+                    },
+                    1268: {
+                        slidesPerView: 3,
+                        spaceBetween: 40
                     }
-                }
-            }));
+                },
+                on: {}
+            });
+            if (document.querySelector(".similar-cars")) new swiper_core_Swiper(".similar-cars__slider", {
+                modules: [ Pagination ],
+                observer: true,
+                observeParents: true,
+                speed: 800,
+                touchRatio: 1,
+                pagination: {
+                    el: ".similar-cars-slider__swiper-pagination",
+                    clickable: true
+                },
+                breakpoints: {
+                    360: {
+                        slidesPerView: 1.1,
+                        spaceBetween: 20
+                    },
+                    665: {
+                        slidesPerView: 2.1,
+                        spaceBetween: 20
+                    },
+                    768: {
+                        slidesPerView: 2.1,
+                        spaceBetween: 20
+                    },
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 30
+                    },
+                    1268: {
+                        slidesPerView: 3,
+                        spaceBetween: 40
+                    }
+                },
+                on: {}
+            });
         }
         window.addEventListener("load", (function(e) {
             initSliders();
