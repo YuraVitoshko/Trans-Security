@@ -6331,7 +6331,8 @@
                     touchRatio: 1,
                     pagination: {
                         el: ".premium-slider__swiper-pagination",
-                        clickable: true
+                        clickable: true,
+                        dynamicBullets: true
                     },
                     breakpoints: {
                         360: {
@@ -6365,7 +6366,8 @@
                     touchRatio: 1,
                     pagination: {
                         el: ".business-slider__swiper-pagination",
-                        clickable: true
+                        clickable: true,
+                        dynamicBullets: true
                     },
                     breakpoints: {
                         360: {
@@ -6399,7 +6401,8 @@
                     touchRatio: 1,
                     pagination: {
                         el: ".suvs-slider__swiper-pagination",
-                        clickable: true
+                        clickable: true,
+                        dynamicBullets: true
                     },
                     breakpoints: {
                         360: {
@@ -6433,7 +6436,8 @@
                     touchRatio: 1,
                     pagination: {
                         el: ".vans-slider__swiper-pagination",
-                        clickable: true
+                        clickable: true,
+                        dynamicBullets: true
                     },
                     breakpoints: {
                         360: {
@@ -6465,6 +6469,7 @@
                 observer: true,
                 observeParents: true,
                 speed: 800,
+                autoHeight: false,
                 touchRatio: 1,
                 loop: true,
                 autoplay: {
@@ -6473,7 +6478,8 @@
                 },
                 pagination: {
                     el: ".testimonials__swiper-pagination",
-                    clickable: true
+                    clickable: true,
+                    dynamicBullets: true
                 },
                 breakpoints: {
                     360: {
@@ -6507,7 +6513,8 @@
                 touchRatio: 1,
                 pagination: {
                     el: ".similar-cars-slider__swiper-pagination",
-                    clickable: true
+                    clickable: true,
+                    dynamicBullets: true
                 },
                 breakpoints: {
                     360: {
@@ -8448,7 +8455,7 @@ PERFORMANCE OF THIS SOFTWARE.
             separateDialCode: true,
             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"
         });
-        window["FLS"] = true;
+        window["FLS"] = false;
         isWebp();
         menuInit();
         spollers();
