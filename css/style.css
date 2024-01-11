@@ -557,6 +557,7 @@ textarea.input {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-size: 0.875rem;
   line-height: 1.4;
 }
 
@@ -3349,7 +3350,10 @@ textarea.input {
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: 2.5rem;
+  -webkit-column-gap: 2.5rem;
+     -moz-column-gap: 2.5rem;
+          column-gap: 2.5rem;
+  row-gap: 5rem;
 }
 
 .item-what-we-do {
@@ -3434,10 +3438,11 @@ textarea.input {
 .item-what-we-do__text {
   line-height: 1.4;
   color: #757575;
-  padding-bottom: 0.625rem;
 }
 
 .item-what-we-do__more {
+  padding-top: 1.25rem;
+  padding-left: 1rem;
   color: #ff9e52;
   font-size: 1.25rem;
   font-weight: 600;
@@ -4107,18 +4112,20 @@ textarea.input {
 
 .contacy-us-hero {
   position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 .contacy-us-hero__bg {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .contacy-us-hero__container {
@@ -4146,6 +4153,32 @@ textarea.input {
   background: var(--Primary-Dark, #1C1C1C);
   -webkit-box-shadow: 0.125rem 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0.125rem 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.08);
+  opacity: 0;
+}
+
+.contacy-us-hero__title._watcher-view {
+  opacity: 0;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: title-contacts 1s ease 0.1s forwards;
+          animation: title-contacts 1s ease 0.1s forwards;
+}
+
+@-webkit-keyframes title-contacts {
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes title-contacts {
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .bodyguard-hero {
@@ -7137,7 +7170,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .hero__title {
-    font-size: 4.25rem;
+    font-size: 3.25rem;
   }
 
   .our-benefits {
@@ -7213,7 +7246,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .contacy-us-hero__container {
-    padding-top: 11.25rem;
+    padding-top: 21.875rem;
   }
 
   .contacy-us-hero__container {
@@ -7382,15 +7415,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (font-size: clamp( 4.25rem , 3.7608695652rem  +  2.1739130435vw , 5.5rem )) {
+@supports (font-size: clamp( 3.25rem , 2.3695652174rem  +  3.9130434783vw , 5.5rem )) {
     .hero__title {
-      font-size: clamp( 4.25rem , 3.7608695652rem  +  2.1739130435vw , 5.5rem );
+      font-size: clamp( 3.25rem , 2.3695652174rem  +  3.9130434783vw , 5.5rem );
     }
 }
 
-@supports not (font-size: clamp( 4.25rem , 3.7608695652rem  +  2.1739130435vw , 5.5rem )) {
+@supports not (font-size: clamp( 3.25rem , 2.3695652174rem  +  3.9130434783vw , 5.5rem )) {
     .hero__title {
-      font-size: calc(4.25rem + 1.25 * (100vw - 22.5rem) / 57.5);
+      font-size: calc(3.25rem + 2.25 * (100vw - 22.5rem) / 57.5);
     }
 }
 
@@ -7610,15 +7643,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (padding-top: clamp( 11.25rem , 11.0054347826rem  +  1.0869565217vw , 11.875rem )) {
+@supports (padding-top: clamp( 11.875rem , 25.7880434783rem  +  -17.3913043478vw , 21.875rem )) {
     .contacy-us-hero__container {
-      padding-top: clamp( 11.25rem , 11.0054347826rem  +  1.0869565217vw , 11.875rem );
+      padding-top: clamp( 11.875rem , 25.7880434783rem  +  -17.3913043478vw , 21.875rem );
     }
 }
 
-@supports not (padding-top: clamp( 11.25rem , 11.0054347826rem  +  1.0869565217vw , 11.875rem )) {
+@supports not (padding-top: clamp( 11.875rem , 25.7880434783rem  +  -17.3913043478vw , 21.875rem )) {
     .contacy-us-hero__container {
-      padding-top: calc(11.25rem + 0.625 * (100vw - 22.5rem) / 57.5);
+      padding-top: calc(21.875rem + -10 * (100vw - 22.5rem) / 57.5);
     }
 }
 
