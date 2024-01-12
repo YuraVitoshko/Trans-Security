@@ -636,7 +636,6 @@ textarea.input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 2rem;
 }
 
 .breadcrumbs__item {
@@ -4930,7 +4929,7 @@ textarea.input {
   padding: 0.5rem 1rem;
   border-radius: 0.75rem;
   background-color: #1C1C1C;
-  top: 2.5rem;
+  top: 2.375rem;
   left: 0;
   width: 100%;
   height: auto;
@@ -6389,6 +6388,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 @media (min-width: 80em) {
+  .breadcrumbs__list {
+    gap: 2rem;
+  }
+
   .block-header__title {
     font-size: 4rem;
   }
@@ -6688,10 +6691,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -6701,10 +6700,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
             flex: 1 1 auto;
     width: 100%;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    align-items: center;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
 
   .popup__content {
@@ -6717,7 +6718,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     transition: transform 0.3s ease 0s;
     transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
     background-color: #eee;
-    padding: 1.25rem;
+    padding: 1.25rem 1.25rem 2.5rem 1.25rem;
     width: 100%;
     max-width: 100%;
     display: -ms-grid;
@@ -6732,6 +6733,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .popup__close {
     -ms-grid-column-align: end;
         justify-self: end;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
     width: 0.9375rem;
     height: 0.9375rem;
   }
@@ -6739,6 +6743,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .spollers__wrapper {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .go-to-up {
+    bottom: 5.625rem;
+    right: 1.25rem;
   }
 
   .swiper-button-next,
@@ -7317,6 +7326,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
             flex-direction: column;
   }
 
+  .item-types-car-catalog {
+    width: 100%;
+    padding: 0.625rem 0.75rem;
+  }
+
+  .item-types-car-catalog__list {
+    top: 3.125rem;
+  }
+
   .car-catalog__types {
     display: none;
   }
@@ -7434,6 +7452,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 @media (max-width: 22.5em) {
+  .breadcrumbs__list {
+    gap: 1.5625rem;
+  }
+
   .block-header__title {
     font-size: 3rem;
   }
@@ -7616,6 +7638,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 @media (min-width: 22.5em) and (max-width: 80em) {
+@supports (gap: clamp( 1.5625rem , 1.3913043478rem  +  0.7608695652vw , 2rem )) {
+    .breadcrumbs__list {
+      gap: clamp( 1.5625rem , 1.3913043478rem  +  0.7608695652vw , 2rem );
+    }
+}
+
+@supports not (gap: clamp( 1.5625rem , 1.3913043478rem  +  0.7608695652vw , 2rem )) {
+    .breadcrumbs__list {
+      gap: calc(1.5625rem + 0.4375 * (100vw - 22.5rem) / 57.5);
+    }
+}
+
 @supports (font-size: clamp( 3rem , 2.6086956522rem  +  1.7391304348vw , 4rem )) {
     .block-header__title {
       font-size: clamp( 3rem , 2.6086956522rem  +  1.7391304348vw , 4rem );
