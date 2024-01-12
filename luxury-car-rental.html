@@ -6,13 +6,14 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240111175326">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240112224524">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+	<a href="#" data-goto=".car-rental-hero" class="go-to-up"></a>
 	<div class="wrapper">
 		<header data-scroll class="header">
 			<div class="header__container">
@@ -20,13 +21,13 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu1">
 								<a href="#" class="menu__link">Our services</a>
 								<ul class="menu__sub-list menu__sub-list--long">
 									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Police escort</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Luxury Car Rental</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Armed bodyguard</a></li>
+									<li class="menu__sub-item"><a href="luxury-car-rental.html" class="menu__sub-link">Luxury Car Rental</a></li>
+									<li class="menu__sub-item"><a href="armed-bodyguard.html" class="menu__sub-link">Armed bodyguard</a></li>
 								</ul>
 							</li>
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu2">
@@ -74,7 +75,7 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="car-rental-hero">
+			<section data-watch="navigator" class="car-rental-hero">
 				<picture><source srcset="img/car-rental/hero-image.webp" type="image/webp"><img class="car-rental-hero__bg" src="img/car-rental/hero-image.jpg" alt="Image"></picture>
 				<div class="car-rental-hero__container">
 					<h1 class="car-rental-hero__title">Luxury car rental</h1>
@@ -103,20 +104,20 @@
 					</div>
 					<a data-popup="#popup-filtres" href="#" class="car-catalog__button button button--orange">Filtres</a>
 					<div class="car-catalog__types types-car-catalog">
-						<div class="types-car-catalog__items">
+						<form action="#" class="types-car-catalog__items">
 							<div data-types="types-1" class="types-car-catalog__item item-types-car-catalog">Sort by
 								<div class="item-types-car-catalog__list">
 									<div class="checkbox">
 										<input id="sort01" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
-										<label for="sort01" class="checkbox__label"><span class="checkbox__text">Recommended</span></label>
+										<label for="sort01" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Recommended</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="sort02" data-error="Error" class="checkbox__input" type="checkbox" value="2" name="form[]">
-										<label for="sort02" class="checkbox__label"><span class="checkbox__text">From low to high</span></label>
+										<label for="sort02" class="checkbox__label"><span class="checkbox__text checkbox__text--white">From low to high</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="sort03" data-error="Error" class="checkbox__input" type="checkbox" value="3" name="form[]">
-										<label for="sort03" class="checkbox__label"><span class="checkbox__text">From high to low</span></label>
+										<label for="sort03" class="checkbox__label"><span class="checkbox__text checkbox__text--white">From high to low</span></label>
 									</div>
 								</div>
 							</div>
@@ -124,19 +125,19 @@
 								<div class="item-types-car-catalog__list">
 									<div class="checkbox">
 										<input id="tape01" data-error="Error" class="checkbox__input" type="checkbox" value="5" name="form[]">
-										<label for="tape01" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										<label for="tape01" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="tape02" data-error="Error" class="checkbox__input" type="checkbox" value="6" name="form[]">
-										<label for="tape02" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										<label for="tape02" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="tape03" data-error="Error" class="checkbox__input" type="checkbox" value="7" name="form[]">
-										<label for="tape03" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										<label for="tape03" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="tape04" data-error="Error" class="checkbox__input" type="checkbox" value="8" name="form[]">
-										<label for="tape04" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										<label for="tape04" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
 									</div>
 								</div>
 							</div>
@@ -144,23 +145,23 @@
 								<div class="item-types-car-catalog__list">
 									<div class="checkbox">
 										<input id="brands01" data-error="Error" class="checkbox__input" type="checkbox" value="9" name="form[]">
-										<label for="brands01" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										<label for="brands01" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="brands02" data-error="Error" class="checkbox__input" type="checkbox" value="10" name="form[]">
-										<label for="brands02" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										<label for="brands02" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="brands03" data-error="Error" class="checkbox__input" type="checkbox" value="11" name="form[]">
-										<label for="brands03" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										<label for="brands03" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="brands04" data-error="Error" class="checkbox__input" type="checkbox" value="12" name="form[]">
-										<label for="brands04" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
+										<label for="brands04" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
 									</div>
 								</div>
 							</div>
-						</div>
+						</form>
 						<div class="types-car-catalog__selected">Recommended</div>
 					</div>
 					<div class="car-catalog__showing">Showing 1 - 10 of 10 cars</div>
@@ -735,7 +736,7 @@
 						<h2 data-watch data-watch-once data-watch-threshold="0.3" class="block-header__title">Our protection is always there 24 hours</h2>
 					</div>
 					<div class="we-ready__body">
-						<form class="we-ready__form form-we-ready" action="#">
+						<form data-watch data-watch-once data-watch-threshold="0.1" class="we-ready__form form-we-ready" action="#">
 							<div class="form-we-ready__line">
 								<label class="form-we-ready__label" for="name">Full name <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
 								<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
@@ -765,7 +766,7 @@
 								</div>
 							</div>
 						</form>
-						<div class="we-ready__contacts contacts-we-ready contacts-we-ready--none">
+						<div data-watch data-watch-once data-watch-threshold="0.1" class="we-ready__contacts contacts-we-ready contacts-we-ready--none">
 							<div class="contacts-we-ready__top top-contacts-we-ready">
 								<h2 class="top-contacts-we-ready__title">Contact information</h2>
 								<div class="top-contacts-we-ready__paragraphs">
@@ -1034,7 +1035,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20240111175326"></script>
+	<script src="js/app.min.js?_v=20240112224524"></script>
 </body>
 
 </html>

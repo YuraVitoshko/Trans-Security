@@ -6,13 +6,14 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240111175326">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240112224524">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+	<a href="#" data-goto=".bodyguard-hero" class="go-to-up"></a>
 	<div class="wrapper">
 		<header data-scroll class="header">
 			<div class="header__container">
@@ -20,13 +21,13 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu1">
 								<a href="#" class="menu__link">Our services</a>
 								<ul class="menu__sub-list menu__sub-list--long">
 									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Police escort</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Luxury Car Rental</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Armed bodyguard</a></li>
+									<li class="menu__sub-item"><a href="luxury-car-rental.html" class="menu__sub-link">Luxury Car Rental</a></li>
+									<li class="menu__sub-item"><a href="armed-bodyguard.html" class="menu__sub-link">Armed bodyguard</a></li>
 								</ul>
 							</li>
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu2">
@@ -74,7 +75,7 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="bodyguard-hero">
+			<section data-watch="navigator" class="bodyguard-hero">
 				<picture><source srcset="img/bodyguard/image.webp" type="image/webp"><img class="bodyguard-hero__bg" src="img/bodyguard/image.jpg" alt="Image"></picture>
 				<div class="bodyguard-hero__container">
 					<h1 class="bodyguard-hero__title">Armed bodyguard</h1>
@@ -88,11 +89,11 @@
 					</div>
 					<div class="executive-protection__body">
 						<div class="executive-protection__content content-executive-protection">
-							<h3 class="content-executive-protection__title">Why You Might Need Private Security Protection</h3>
-							<div class="content-executive-protection__text">Many people might assume that armed bodyguards simply specialize in reacting to potential threats in a rapid and
+							<h3 data-watch data-watch-once data-watch-threshold="0.3" class="content-executive-protection__title">Why You Might Need Private Security Protection</h3>
+							<div data-watch data-watch-once data-watch-threshold="0.3" class="content-executive-protection__text">Many people might assume that armed bodyguards simply specialize in reacting to potential threats in a rapid and
 								efficient way. The reality is that a trained personal security guard has skills that go well beyond that rapid response
 								to danger. At ISS, our private security guards are trained to:</div>
-							<ul class="content-executive-protection__list">
+							<ul data-watch data-watch-once data-watch-threshold="0.3" class="content-executive-protection__list">
 								<li class="content-executive-protection__item">Secure locations and identify vulnerabilities in areas you frequent</li>
 								<li class="content-executive-protection__item">Assess any environment and potential risks before they become immediate threats</li>
 								<li class="content-executive-protection__item">Quickly identify warning signs</li>
@@ -102,7 +103,7 @@
 							</ul>
 							<a href="#" class="content-executive-protection__button button button--orange button--arrow">Book a call</a>
 						</div>
-						<div class="executive-protection__image">
+						<div data-watch data-watch-once data-watch-threshold="0.3" class="executive-protection__image">
 							<picture><source srcset="img/bodyguard/01.webp" type="image/webp"><img src="img/bodyguard/01.jpg" alt="Image"></picture>
 						</div>
 					</div>
@@ -140,7 +141,7 @@
 						<h2 data-watch data-watch-once data-watch-threshold="0.3" class="block-header__title">Our protection is always there 24 hours</h2>
 					</div>
 					<div class="we-ready__body">
-						<form class="we-ready__form form-we-ready" action="#">
+						<form data-watch data-watch-once data-watch-threshold="0.1" class="we-ready__form form-we-ready" action="#">
 							<div class="form-we-ready__line">
 								<label class="form-we-ready__label" for="name">Full name <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
 								<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
@@ -171,7 +172,7 @@
 								</div>
 							</div>
 						</form>
-						<div class="we-ready__contacts contacts-we-ready contacts-we-ready--none">
+						<div data-watch data-watch-once data-watch-threshold="0.1" class="we-ready__contacts contacts-we-ready contacts-we-ready--none">
 							<div class="contacts-we-ready__top top-contacts-we-ready">
 								<h2 class="top-contacts-we-ready__title">Contact information</h2>
 								<div class="top-contacts-we-ready__paragraphs">
@@ -337,7 +338,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20240111175326"></script>
+	<script src="js/app.min.js?_v=20240112224524"></script>
 </body>
 
 </html>

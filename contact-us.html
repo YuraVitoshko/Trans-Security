@@ -6,13 +6,14 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240111175326">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240112224524">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+	<a href="#" data-goto=".contacy-us-hero" class="go-to-up"></a>
 	<div class="wrapper">
 		<header data-scroll class="header">
 			<div class="header__container">
@@ -20,13 +21,13 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu1">
 								<a href="#" class="menu__link">Our services</a>
 								<ul class="menu__sub-list menu__sub-list--long">
 									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Police escort</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Luxury Car Rental</a></li>
-									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Armed bodyguard</a></li>
+									<li class="menu__sub-item"><a href="luxury-car-rental.html" class="menu__sub-link">Luxury Car Rental</a></li>
+									<li class="menu__sub-item"><a href="armed-bodyguard.html" class="menu__sub-link">Armed bodyguard</a></li>
 								</ul>
 							</li>
 							<li class="menu__item menu__item--sub-menu" data-submenu="submenu2">
@@ -74,10 +75,10 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="contacy-us-hero">
+			<section data-watch="navigator" class="contacy-us-hero">
 				<picture><source srcset="img/contacts/hero-image.webp" type="image/webp"><img class="contacy-us-hero__bg" src="img/contacts/hero-image.jpg" alt="Image"></picture>
 				<div class="contacy-us-hero__container">
-					<h1 data-watch class="contacy-us-hero__title">Contact us</h1>
+					<h1 class="contacy-us-hero__title">Contact us</h1>
 				</div>
 			</section>
 			<section class="we-ready">
@@ -87,7 +88,7 @@
 						<h2 data-watch data-watch-once data-watch-threshold="0.3" class="block-header__title">Our protection is always there 24 hours</h2>
 					</div>
 					<div class="we-ready__body">
-						<form class="we-ready__form form-we-ready" action="#">
+						<form data-watch data-watch-once data-watch-threshold="0.1" class="we-ready__form form-we-ready" action="#">
 							<div class="form-we-ready__line">
 								<label class="form-we-ready__label" for="name">Full name <span><picture><source srcset="img/icons/star.webp" type="image/webp"><img src="img/icons/star.png" alt="icon"></picture></span></label>
 								<input autocomplete="off" id="name" data-required type="text" name="form[]" data-error="This field is required" placeholder="Enter a full name" class="form-we-ready__input input">
@@ -118,7 +119,7 @@
 								</div>
 							</div>
 						</form>
-						<div class="we-ready__contacts contacts-we-ready contacts-we-ready--none">
+						<div data-watch data-watch-once data-watch-threshold="0.1" class="we-ready__contacts contacts-we-ready contacts-we-ready--none">
 							<div class="contacts-we-ready__top top-contacts-we-ready">
 								<h2 class="top-contacts-we-ready__title">Contact information</h2>
 								<div class="top-contacts-we-ready__paragraphs">
@@ -310,7 +311,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20240111175326"></script>
+	<script src="js/app.min.js?_v=20240112224524"></script>
 </body>
 
 </html>
