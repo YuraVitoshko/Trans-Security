@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240113151431">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240113153029">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -955,19 +955,21 @@
 						</div>
 						<div class="popup-filtres__types types-car-catalog">
 							<div class="types-car-catalog__items">
-								<div id="types-1" class="types-car-catalog__item item-types-car-catalog">Sort by
+								<div data-types="types-1" class="types-car-catalog__item item-types-car-catalog">Sort by
 									<div class="item-types-car-catalog__list">
-										<div class="checkbox">
-											<input id="sort_1" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
-											<label for="sort_1" class="checkbox__label"><span class="checkbox__text">Recommended</span></label>
-										</div>
-										<div class="checkbox">
-											<input id="sort_2" data-error="Error" class="checkbox__input" type="checkbox" value="2" name="form[]">
-											<label for="sort_2" class="checkbox__label"><span class="checkbox__text">From low to high</span></label>
-										</div>
-										<div class="checkbox">
-											<input id="sort_3" data-error="Error" class="checkbox__input" type="checkbox" value="3" name="form[]">
-											<label for="sort_3" class="checkbox__label"><span class="checkbox__text">From high to low</span></label>
+										<div class="item-types-car-catalog__options options">
+											<div class="options__item">
+												<input id="sort01" class="options__input" checked type="radio" value="1" name="option">
+												<label for="sort01" class="options__label"><span class="options__text">Recommended</span></label>
+											</div>
+											<div class="options__item">
+												<input id="sort02" class="options__input" type="radio" value="2" name="option">
+												<label for="sort02" class="options__label"><span class="options__text">From low to high</span></label>
+											</div>
+											<div class="options__item">
+												<input id="sort03" class="options__input" type="radio" value="3" name="option">
+												<label for="sort03" class="options__label"><span class="options__text">From high to low</span></label>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -1023,7 +1025,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20240113151431"></script>
+	<script src="js/app.min.js?_v=20240113153029"></script>
 </body>
 
 </html>
