@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240113114614">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240113151431">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -107,17 +107,19 @@
 						<form action="#" class="types-car-catalog__items">
 							<div data-types="types-1" class="types-car-catalog__item item-types-car-catalog">Sort by
 								<div class="item-types-car-catalog__list">
-									<div class="checkbox">
-										<input id="sort01" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
-										<label for="sort01" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Recommended</span></label>
-									</div>
-									<div class="checkbox">
-										<input id="sort02" data-error="Error" class="checkbox__input" type="checkbox" value="2" name="form[]">
-										<label for="sort02" class="checkbox__label"><span class="checkbox__text checkbox__text--white">From low to high</span></label>
-									</div>
-									<div class="checkbox">
-										<input id="sort03" data-error="Error" class="checkbox__input" type="checkbox" value="3" name="form[]">
-										<label for="sort03" class="checkbox__label"><span class="checkbox__text checkbox__text--white">From high to low</span></label>
+									<div class="item-types-car-catalog__options options">
+										<div class="options__item">
+											<input id="sort01" class="options__input" checked type="radio" value="1" name="option">
+											<label for="sort01" class="options__label"><span class="options__text">Recommended</span></label>
+										</div>
+										<div class="options__item">
+											<input id="sort02" class="options__input" type="radio" value="2" name="option">
+											<label for="sort02" class="options__label"><span class="options__text">From low to high</span></label>
+										</div>
+										<div class="options__item">
+											<input id="sort03" class="options__input" type="radio" value="3" name="option">
+											<label for="sort03" class="options__label"><span class="options__text">From high to low</span></label>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -125,19 +127,19 @@
 								<div class="item-types-car-catalog__list">
 									<div class="checkbox">
 										<input id="tape01" data-error="Error" class="checkbox__input" type="checkbox" value="5" name="form[]">
-										<label for="tape01" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
+										<label for="tape01" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="tape02" data-error="Error" class="checkbox__input" type="checkbox" value="6" name="form[]">
-										<label for="tape02" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
+										<label for="tape02" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="tape03" data-error="Error" class="checkbox__input" type="checkbox" value="7" name="form[]">
-										<label for="tape03" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
+										<label for="tape03" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="tape04" data-error="Error" class="checkbox__input" type="checkbox" value="8" name="form[]">
-										<label for="tape04" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
+										<label for="tape04" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
 									</div>
 								</div>
 							</div>
@@ -145,19 +147,19 @@
 								<div class="item-types-car-catalog__list">
 									<div class="checkbox">
 										<input id="brands01" data-error="Error" class="checkbox__input" type="checkbox" value="9" name="form[]">
-										<label for="brands01" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
+										<label for="brands01" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="brands02" data-error="Error" class="checkbox__input" type="checkbox" value="10" name="form[]">
-										<label for="brands02" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
+										<label for="brands02" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="brands03" data-error="Error" class="checkbox__input" type="checkbox" value="11" name="form[]">
-										<label for="brands03" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
+										<label for="brands03" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
 									</div>
 									<div class="checkbox">
 										<input id="brands04" data-error="Error" class="checkbox__input" type="checkbox" value="12" name="form[]">
-										<label for="brands04" class="checkbox__label"><span class="checkbox__text checkbox__text--white">Текст</span></label>
+										<label for="brands04" class="checkbox__label"><span class="checkbox__text">Текст</span></label>
 									</div>
 								</div>
 							</div>
@@ -1021,7 +1023,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20240113114614"></script>
+	<script src="js/app.min.js?_v=20240113151431"></script>
 </body>
 
 </html>
