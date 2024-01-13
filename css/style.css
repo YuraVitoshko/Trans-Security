@@ -6261,22 +6261,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     transition: all 1s ease 0s;
   }
 
-  .description__form {
-    opacity: 0;
-    -webkit-transform: translate(10%, 0);
-        -ms-transform: translate(10%, 0);
-            transform: translate(10%, 0);
-    -webkit-transition: all 1s ease 0s;
-    transition: all 1s ease 0s;
-  }
-
-  .description__form._watcher-view {
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-
   .description-title {
     opacity: 0;
     -webkit-transform: translate(0, 20%);
@@ -6367,6 +6351,24 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .car-description__text._watcher-view {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@media (min-width: 61.99875em) {
+  .description__form {
+    opacity: 0;
+    -webkit-transform: translate(10%, 0);
+        -ms-transform: translate(10%, 0);
+            transform: translate(10%, 0);
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+  }
+
+  .description__form._watcher-view {
     opacity: 1;
     -webkit-transform: translate(0, 0);
         -ms-transform: translate(0, 0);
