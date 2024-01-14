@@ -8097,13 +8097,13 @@ PERFORMANCE OF THIS SOFTWARE.
         da.init();
         var intl_tel_input = __webpack_require__(699);
         document.addEventListener("DOMContentLoaded", (function() {
-            var items = document.querySelectorAll(".types-car-catalog__item");
+            let items = document.querySelectorAll(".types-car-catalog__item");
             items.forEach((function(item) {
                 item.addEventListener("click", (function(event) {
-                    var list = this.querySelector(".item-types-car-catalog__list");
+                    let list = this.querySelector(".item-types-car-catalog__list");
                     items.forEach((function(otherItem) {
                         if (otherItem !== item) {
-                            var otherList = otherItem.querySelector(".item-types-car-catalog__list");
+                            let otherList = otherItem.querySelector(".item-types-car-catalog__list");
                             otherList.style.display = "none";
                             otherItem.classList.remove("_active");
                         }
@@ -8115,7 +8115,7 @@ PERFORMANCE OF THIS SOFTWARE.
             }));
             document.addEventListener("click", (function(event) {
                 items.forEach((function(item) {
-                    var list = item.querySelector(".item-types-car-catalog__list");
+                    let list = item.querySelector(".item-types-car-catalog__list");
                     if (list.style.display === "block" && !item.contains(event.target)) {
                         list.style.display = "none";
                         item.classList.remove("_active");
@@ -8124,10 +8124,10 @@ PERFORMANCE OF THIS SOFTWARE.
             }));
         }));
         document.addEventListener("DOMContentLoaded", (function() {
-            var subMenus = document.querySelectorAll(".menu__item--sub-menu");
+            let subMenus = document.querySelectorAll(".menu__item--sub-menu");
             subMenus.forEach((function(menuItem) {
                 menuItem.addEventListener("click", (function(event) {
-                    var submenu = this.querySelector(".menu__sub-list");
+                    let submenu = this.querySelector(".menu__sub-list");
                     if (submenu.classList.contains("active")) {
                         submenu.classList.remove("active");
                         this.classList.remove("active");
@@ -8143,7 +8143,7 @@ PERFORMANCE OF THIS SOFTWARE.
             }));
             function closeAllSubmenus() {
                 subMenus.forEach((function(menuItem) {
-                    var submenu = menuItem.querySelector(".menu__sub-list");
+                    let submenu = menuItem.querySelector(".menu__sub-list");
                     if (submenu) {
                         submenu.classList.remove("active");
                         menuItem.classList.remove("active");
