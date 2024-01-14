@@ -6083,22 +6083,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
             transform: translateY(0);
   }
 
-  .statistics__body {
-    opacity: 0;
-    -webkit-transform: translateY(15%);
-        -ms-transform: translateY(15%);
-            transform: translateY(15%);
-    -webkit-transition: all 0.8s ease 0s;
-    transition: all 0.8s ease 0s;
-  }
-
-  .statistics__body._watcher-view {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
-  }
-
   .our-benefits__item {
     opacity: 0;
     -webkit-transform: translateY(20%);
