@@ -8679,9 +8679,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .card-auto:hover {
-    -webkit-transform: translateY(-1%);
-        -ms-transform: translateY(-1%);
-            transform: translateY(-1%);
+    -webkit-transform: translateY(-2%);
+        -ms-transform: translateY(-2%);
+            transform: translateY(-2%);
   }
 
   .card-auto__model:hover {
