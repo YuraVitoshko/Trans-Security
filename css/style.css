@@ -1053,7 +1053,7 @@ textarea.input {
       -ms-flex-align: center;
           align-items: center;
   height: 1.875rem;
-  padding: 0 0.9375rem;
+  padding: 0 1rem;
   gap: 0.3125rem;
 }
 
@@ -1083,14 +1083,17 @@ textarea.input {
       -ms-flex-align: center;
           align-items: center;
   background: url(../img/icons/arrow-menu-item.svg) 0 0 no-repeat;
-  width: 1rem;
-  height: 1rem;
+  min-width: 1rem;
+  min-height: 1rem;
+  -webkit-transform: rotate(0) scale(1.35);
+      -ms-transform: rotate(0) scale(1.35);
+          transform: rotate(0) scale(1.35);
 }
 
 ._select-open .select__value:after {
-  -webkit-transform: rotate(-180deg);
-      -ms-transform: rotate(-180deg);
-          transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg) scale(1.35);
+      -ms-transform: rotate(-180deg) scale(1.35);
+          transform: rotate(-180deg) scale(1.35);
 }
 
 .select__value._select-pseudo-label::before {
@@ -1107,6 +1110,7 @@ textarea.input {
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #fff;
+  font-size: 1.375rem;
   -webkit-transition: color 0.3s ease 0s;
   transition: color 0.3s ease 0s;
 }
@@ -1134,7 +1138,7 @@ textarea.input {
   left: 0;
   background-color: #0a0a0a;
   border-radius: 0.75rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.8125rem;
 }
 
 .select__scroll {
@@ -6795,6 +6799,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 @media (max-width: 40em) {
   .actions-header__phone {
+    padding-left: 1rem;
+    font-size: 1.375rem;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
@@ -6988,10 +6994,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(0, 0, 0);
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    padding-bottom: 1.875rem;
+    padding-bottom: 5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -7052,7 +7058,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .contacts-menu {
     display: -ms-grid;
     display: grid;
-    gap: 1.25rem;
+    gap: 1.875rem;
+    padding-left: 1rem;
   }
 
   .actions-header {
@@ -7795,24 +7802,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 @media (max-width: 39.99875em) {
-  .select__value {
-    padding-left: 0;
-    padding-right: 0;
+  .select__body {
+    padding-top: 0.5rem;
   }
 
   .select__option {
     padding-left: 0.3125rem;
-  }
-
-  .actions-header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    gap: 6.25rem;
   }
 
   .actions-header__lang {
