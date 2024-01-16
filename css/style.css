@@ -3390,11 +3390,11 @@ textarea.input {
           flex: 0 0 1.25rem;
   width: 1.25rem;
   height: 1.25rem;
-  margin-left: -0.5rem;
+  margin-left: -1.5625rem;
 }
 
 .actions-hero__button--width-big {
-  width: 10rem;
+  min-width: 10rem;
   text-wrap: nowrap;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -3407,7 +3407,7 @@ textarea.input {
 }
 
 .actions-hero__button--width-small {
-  width: 7.5rem;
+  min-width: 7.5rem;
   text-wrap: nowrap;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -7144,7 +7144,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .actions-hero__button--width-big:active {
-    width: 11.25rem;
+    min-width: 11.25rem;
   }
 
   .actions-hero__button--width-big:active::after {
@@ -7153,7 +7153,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .actions-hero__button--width-small:active {
-    width: 8.75rem;
+    min-width: 8.75rem;
   }
 
   .actions-hero__button--width-small:active::after {
@@ -8742,7 +8742,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .actions-hero__button--width-big:hover {
-    width: 11.25rem;
+    min-width: 11.25rem;
   }
 
   .actions-hero__button--width-big:hover::after {
@@ -8751,7 +8751,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .actions-hero__button--width-small:hover {
-    width: 8.75rem;
+    min-width: 8.75rem;
   }
 
   .actions-hero__button--width-small:hover::after {
