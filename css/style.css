@@ -5272,6 +5272,8 @@ textarea.input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .fixed-block__button::after {
@@ -5284,6 +5286,8 @@ textarea.input {
   height: 1.25rem;
   margin-left: -1.5625rem;
   opacity: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .similar-cars {
