@@ -3981,6 +3981,7 @@ textarea.input {
 }
 
 .item-testimonials__blockquote {
+  font-size: 1rem;
   line-height: 1.4;
   color: #757575;
   -webkit-box-flex: 1;
