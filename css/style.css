@@ -886,10 +886,10 @@ textarea.input {
   -webkit-box-shadow: 0.125rem 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0.125rem 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  -webkit-transition: -webkit-transform 0.3s ease 0s;
-  transition: -webkit-transform 0.3s ease 0s;
-  transition: transform 0.3s ease 0s;
-  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  -webkit-transition: -webkit-transform 0.3s ease 0.1s;
+  transition: -webkit-transform 0.3s ease 0.1s;
+  transition: transform 0.3s ease 0.1s;
+  transition: transform 0.3s ease 0.1s, -webkit-transform 0.3s ease 0.1s;
 }
 
 .card-auto__image {
@@ -5428,22 +5428,6 @@ textarea.input {
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
-.car-catalog__card {
-  opacity: 0;
-  -webkit-transform: translateY(15%);
-      -ms-transform: translateY(15%);
-          transform: translateY(15%);
-  -webkit-transition: all 0.8s ease 0.1s;
-  transition: all 0.8s ease 0.1s;
-}
-
-.car-catalog__card._watcher-view {
-  opacity: 1;
-  -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-}
-
 .car-catalog__showing {
   padding: 0.5rem 0 1.25rem 0;
   line-height: 1.4;
@@ -5548,8 +5532,8 @@ textarea.input {
 .item-types-car-catalog__list {
   display: none;
   position: absolute;
-  z-index: 10;
-  padding: 0.5rem 1rem;
+  z-index: 100;
+  padding: 1.25rem 1rem;
   border-radius: 0.75rem;
   background-color: #fff;
   top: 1.9375rem;
@@ -7159,6 +7143,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
+    gap: 0.5rem;
     -webkit-box-flex: 1;
         -ms-flex: 1 0 auto;
             flex: 1 0 auto;
@@ -7174,6 +7159,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .spoller-menu__link {
     color: #fff;
     font-size: 1.125rem;
+  }
+
+  .spoller-menu__wrapper {
+    display: -ms-grid;
+    display: grid;
+    gap: 0.5rem;
   }
 
   .spoller-menu__title {
