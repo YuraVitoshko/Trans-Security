@@ -4452,7 +4452,7 @@ textarea.input {
   content: "";
   position: absolute;
   right: 0.625rem;
-  top: 32%;
+  top: 30%;
   width: 1rem;
   height: 1rem;
   background: url(../img/icons/arrow-spollers.svg) 0 0 no-repeat;
