@@ -1082,18 +1082,15 @@ textarea.input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../img/icons/arrow-menu-item.svg) 0 0 no-repeat;
+  background: url(../img/icons/arrow-spollers.svg) 0 0 no-repeat;
   min-width: 1rem;
   min-height: 1rem;
-  -webkit-transform: rotate(0) scale(1.35);
-      -ms-transform: rotate(0) scale(1.35);
-          transform: rotate(0) scale(1.35);
 }
 
 ._select-open .select__value:after {
-  -webkit-transform: rotate(-180deg) scale(1.35);
-      -ms-transform: rotate(-180deg) scale(1.35);
-          transform: rotate(-180deg) scale(1.35);
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
 }
 
 .select__value._select-pseudo-label::before {
@@ -3104,7 +3101,7 @@ textarea.input {
           flex: 0 0 1.5rem;
   width: 1.5rem;
   height: 1.5rem;
-  background: url(../img/icons/phone.svg) 0 0 no-repeat;
+  background: url(../img/icons/phone.svg) 0 0/cover no-repeat;
 }
 
 .menu__spoller-list {
@@ -6860,10 +6857,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @media (max-width: 40em) {
   .actions-header__phone {
     padding-left: 1rem;
-    font-size: 1.375rem;
+    font-size: 1rem;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
+  }
+
+  .actions-header__phone::before {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 1rem;
+            flex: 0 0 1rem;
+    width: 1rem;
+    height: 1rem;
   }
 }
 
@@ -7122,6 +7127,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     display: grid;
     gap: 1.875rem;
     padding-left: 1rem;
+  }
+
+  .contacts-menu__icon {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 1rem;
+            flex: 0 0 1rem;
+    min-width: 1rem;
+    min-height: 1rem;
   }
 
   .actions-header {
@@ -7878,6 +7891,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @media (max-width: 39.99875em) {
   .select__body {
     padding-top: 0.5rem;
+  }
+
+  ._select-open .select__value::after {
+    background: url(../img/icons/arrow-orange.svg) 0 0 no-repeat;
   }
 
   .select__option {
